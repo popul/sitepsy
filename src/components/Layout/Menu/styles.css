@@ -1,0 +1,63 @@
+@import "../../../../assets/styles/common.css";
+
+.menu {
+	$borderColor: #CCC;
+	color: color($primary lightness(30%));
+	height: 3.5em;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 1.2em;
+	min-height: 3em;
+	max-height: 3em;
+	h1 {
+		font-size: 1em;
+		font-weight: normal;
+		color: color($primary lightness(30%));
+	}
+}
+
+.logo {
+	padding-left: 1em;
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	a {
+		color: color($primary lightness(30%));		
+	}
+}
+
+@media (--break-lg) {
+	.logo {
+		padding-left: 2.5em;
+	}
+}
+
+.navigation {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	a {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		padding: 0 1em;
+		color: color($primary lightness(30%));
+	}
+}
+
+.contact {
+	background-color: $secondary;
+	height: 100%;
+	color: $primary;
+	padding: 0 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	a {
+		color: $primary;
+	}
+}

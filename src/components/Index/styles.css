@@ -1,0 +1,18 @@
+@import "../../../assets/styles/common.css";
+
+h2 {
+	margin: 0;
+}
+
+.button {
+	margin-top: 1em;
+}
+
+@media (--break-lg) {
+	h2 {
+		margin: 1em;
+	}
+	.button {
+		margin-top: 3em;
+	}
+}

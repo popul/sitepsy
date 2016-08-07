@@ -1,0 +1,7 @@
+$primary: #FFFFFF;
+$secondary: #42c3cf;
+$smallDevice: 375px;
+
+@custom-media --break-sm (min-width: 384px);
+@custom-media --break-md (min-width: 576px);
+@custom-media --break-lg (min-width: 768px);

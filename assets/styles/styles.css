@@ -1,0 +1,114 @@
+@import "../../node_modules/normalize.css/normalize.css";
+
+@import "./common.css";
+@import "./grid.css";
+
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Roboto';
+	color: color($primary lightness(85%));
+	font-weight: 300;
+}
+
+address {
+	font-style: normal;
+}
+
+@for $i from 1 to 3 {
+    .p-t-$i { padding-top: $(i)em; }
+    .p-r-$i { padding-right: $(i)em; }
+    .p-b-$i { padding-bottom: $(i)em; }
+    .p-l-$i { padding-left: $(i)em; }
+    .m-t-$i { margin-top: $(i)em; }
+    .m-r-$i { margin-right: $(i)em; }
+    .m-b-$i { margin-bottom: $(i)em; }
+    .m-l-$i { margin-left: $(i)em; }
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: color($primary lightness(85%));
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.secondary-color {
+	color: $secondary;
+}
+
+.content {
+	flex: 1;
+}
+
+.cover {
+	background: url(../images/fond.jpg) no-repeat 50% 50% fixed;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1, h2 {
+	font-size: 2.2em;
+	font-family: "Roboto";
+	color: $primary;
+	display: inline-block;
+}
+
+h2 {
+	@media screen and (width > $smallDevice) {
+		margin-left: 1em;
+	}
+	font-weight: 300;
+}
+
+ul.targets {
+	list-style-type: none;
+	padding: 0;
+	font-size: 1.1em;
+	color: color($primary lightness(90%));
+
+	li {
+		display: inline-block;
+		margin-left: 1em;
+		margin-right: 1em;
+		&.pipe {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+}
+
+.topSection, .middleSection, .bottomSection {
+	flex:1;
+	text-align: center;
+}
+
+@media (--break-lg) {
+	.topSection {
+		flex: 1.6;
+	}
+}
+
+.footerSection {
+	position: absolute;
+	bottom: 0em;
+	right: 0em;
+	left: 0em;
+	padding: 1em;
+	color: $primary;
+	text-align: right;
+}
+
+.hideSmall {
+	@media screen and (width <= $smallDevice) {
+		display: none !important;
+	}	
+}
+
