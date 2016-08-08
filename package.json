@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "normalize.css": "^4.2.0",
+    "react-ga": "^2.1.1",
     "react-toolbox": "^1.0.3"
   }
 }
