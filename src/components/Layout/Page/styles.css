@@ -1,8 +1,7 @@
 @import "../../../../assets/styles/common.css";
 
 .content {
-	border-top: 1px solid #ddd;
-	padding: 2em 2em 2em 1em;
+	padding: 4em 2em 2em 1em;
 	background-color: #FFF;
 	color: #9d9d9d;
 	height: 100%;
