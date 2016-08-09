@@ -91,8 +91,10 @@ ul.targets {
 	position: relative;
 }
 
-.topSection {
-	flex: 2;
+@media (--break-lg) {
+	.topSection {
+		flex: 2;
+	}
 }
 
 .footerSection {
