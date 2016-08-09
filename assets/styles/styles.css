@@ -82,6 +82,15 @@ ul.targets {
 	text-align: center;
 }
 
+.bottomSection {
+	padding: 1em;
+	color: $primary;
+	text-align: right;
+	width: 100%;
+	align-self: flex-end;
+	position: relative;
+}
+
 @media (--break-lg) {
 	.topSection {
 		flex: 1.3;

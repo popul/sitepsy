@@ -16,3 +16,10 @@ h2 {
 		margin-top: 3em;
 	}
 }
+
+.footerAddress {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	width: 100%;
+}

@@ -30,9 +30,7 @@ export default props => (
 			</div>
 		</div>
 		<div className="bottomSection">
-		</div>
-		<div className="footerSection">
-			<address>
+			<address className={s.footerAddress}>
 				<div>Tel: 06 33 06 57 38</div>
 				<div>Adresse: 4 avenue des Capitouls 31880 La Salvetat Saint Gilles</div>				
 			</address>
