@@ -31,18 +31,10 @@ a:link, a:visited, a:hover {
 	color: color($primary lightness(85%));
 }
 
-.container {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-}
+
 
 .secondary-color {
 	color: $secondary;
-}
-
-.content {
-	flex: 1;
 }
 
 .cover {
@@ -92,7 +84,7 @@ ul.targets {
 
 @media (--break-lg) {
 	.topSection {
-		flex: 1.6;
+		flex: 1.3;
 	}
 }
 

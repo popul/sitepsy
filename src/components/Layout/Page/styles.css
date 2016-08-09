@@ -5,6 +5,7 @@
 	padding: 2em 2em 2em 1em;
 	background-color: #FFF;
 	color: #9d9d9d;
+	height: 100%;
 }
 
 @media (--break-lg) {

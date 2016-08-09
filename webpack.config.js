@@ -32,7 +32,7 @@ module.exports = {
       { test: /\.png|jpg$/, loader: 'file?name=assets/images/[name].[ext]'},
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('css?modules!sass')},
       { test: /\.css$/, include: path.resolve(__dirname, 'assets'), loader: ExtractTextPlugin.extract('css!postcss')},
-      { test: /\.css$/, include: path.resolve(__dirname, 'src/components'), loader: ExtractTextPlugin.extract('css?modules!postcss')}
+      { test: /\.css$/, include: path.resolve(__dirname, 'src/components'), loader: ExtractTextPlugin.extract('css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss')}
     ]
   },
   postcss: function (webpack) {
