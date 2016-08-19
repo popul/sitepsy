@@ -9,6 +9,20 @@ function click() {
 	setTimeout(browserHistory.push.bind(null, '/contact'), 300);
 }
 
+function createInitMap() {
+	return {
+		__html: `
+function initMap() {
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: -34.397, lng: 150.644},
+		scrollwheel: false,
+		zoom: 8
+	});
+}
+		`
+	};	
+}
+
 export default props => (
 	<div className={s.content}>
 		<header className={s.bgImage}>
@@ -52,8 +66,10 @@ export default props => (
 					<address>
 						4 avenue des capitouls
 						31880 La Salvetat Saint Gilles
-					</address>			
+					</address>
 				</div>
+				<div id="map"></div>
+				<script dangerouslySetInnerHTML={createInitMap()}></script>
 				<div className={s.section}>
 					<strong>Téléphone</strong>
 					<div>06 33 06 57 38</div>			
@@ -80,6 +96,8 @@ export default props => (
 				</div>
 			</div>
 		</section>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSVu1BbhKtDNSkNwZnHFULLJsW0hr6WQU&callback=initMap"
+    async defer></script>
 	</div>
 );
 
