@@ -7,7 +7,7 @@ export default props => (
 		<div className={s.logo}>
 			<Link to="/">
 				<h1>
-					Audrey <span className="secondary-color m-l-1">BARTHELEMY</span>
+					<span className="secondary-color">Audrey BARTHELEMY</span>
 				</h1>
 			</Link>				
 		</div>

@@ -24,6 +24,7 @@
 
 .logo {
 	padding-left: 1em;
+	padding-right: 1em;
 	flex: 1;
 	height: 100%;
 	display: flex;

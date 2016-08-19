@@ -9,6 +9,7 @@ html, body {
 	font-family: 'Roboto';
 	color: color($primary lightness(85%));
 	font-weight: 300;
+	font-size: 18px;
 }
 
 address {
@@ -32,18 +33,26 @@ a:link, a:visited, a:hover {
 }
 
 
-
 .secondary-color {
 	color: $secondary;
 }
 
-.cover {
-	background: url(../images/fond.jpg) no-repeat 50% 50% fixed;
-	background-size: cover;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.hidden-lg-up {
+	@media (--break-lg) {
+		display: none !important;
+	}	
+}
+
+.hidden-md-up {
+	@media (--break-md) {
+		display: none !important;
+	}	
+}
+
+.hidden-sm-down {
+	@media (--break-md-max) {
+		display: none !important;
+	}	
 }
 
 h1, h2 {
@@ -58,23 +67,6 @@ h2 {
 		margin-left: 1em;
 	}
 	font-weight: 300;
-}
-
-ul.targets {
-	list-style-type: none;
-	padding: 0;
-	font-size: 1.1em;
-	color: color($primary lightness(90%));
-
-	li {
-		display: inline-block;
-		margin-left: 1em;
-		margin-right: 1em;
-		&.pipe {
-			margin-left: 0;
-			margin-right: 0;
-		}
-	}
 }
 
 .topSection, .middleSection, .bottomSection {
@@ -106,10 +98,3 @@ ul.targets {
 	color: $primary;
 	text-align: right;
 }
-
-.hideSmall {
-	@media screen and (width <= $smallDevice) {
-		display: none !important;
-	}	
-}
-
