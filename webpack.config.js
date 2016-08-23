@@ -9,7 +9,8 @@ var path         = require('path');
 const data = {
   routes: [
     '/',
-    '/contact'
+    '/contact',
+    '/articles/illusion-incompetence'
   ]
 };
 
@@ -29,6 +30,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+      { test: /\.md$/, loader: 'babel!reactdown/webpack', exclude: /node_modules/ },
       { test: /\.png|jpg$/, loader: 'file?name=assets/images/[name].[ext]'},
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('css?modules!sass')},
       { test: /\.css$/, include: path.resolve(__dirname, 'assets'), loader: ExtractTextPlugin.extract('css!postcss')},

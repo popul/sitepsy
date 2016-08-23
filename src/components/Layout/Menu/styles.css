@@ -16,7 +16,6 @@
 	width: 100%;
 	z-index: 1;
 	h1 {
-		font-size: 1em;
 		font-weight: normal;
 		color: color($primary lightness(30%));
 	}
@@ -29,6 +28,7 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
+	font-size: 1.2em;
 	a {
 		color: color($primary lightness(30%));		
 	}
@@ -58,11 +58,10 @@
 	background-color: $secondary;
 	height: 100%;
 	color: $primary;
-	padding: 0 2em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	a {
-		color: $primary;
+		color: $primary !important;
 	}
 }

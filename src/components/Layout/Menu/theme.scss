@@ -1,0 +1,29 @@
+@import "~react-toolbox/lib/button/theme";
+
+.appBar {
+	background-color: #FFF;
+	height: 4em;
+	font-weight: normal;
+	padding-right: 0;
+
+	@media (max-width: 576px) {
+		padding-left: 0;
+	}
+}
+
+.horizontal {
+	padding: 0;
+	height: 100%;
+	display:none;
+
+	@media (min-width: 768px) {
+		display:flex;
+	}
+	a {
+		display: flex;
+		padding: 0 2em;
+		align-items: center;
+		justify-content: center;
+		color: #000;
+	}	
+}

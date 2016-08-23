@@ -55,14 +55,19 @@ a:link, a:visited, a:hover {
 	}	
 }
 
+.text-center {
+	text-align: center;
+}
+
+#app {
+	height: 100%;
+}
+
 h1, h2 {
 	font-size: 2.2em;
 	font-family: "Roboto";
 	color: $primary;
 	display: inline-block;
-}
-
-h2 {
 	@media screen and (width > $smallDevice) {
 		margin-left: 1em;
 	}

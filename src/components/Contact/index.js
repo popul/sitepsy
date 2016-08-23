@@ -1,8 +1,10 @@
 import React from 'react';
 import s from './styles.css';
+import Helmet from "react-helmet";
 
 export default props => (
 	<div>
+		<Helmet title="Contact" />
 		<h1>Contact</h1>
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">

@@ -80,7 +80,7 @@ ul.targets {
 }
 
 @media (--break-lg) {
-	h2 {
+	h1 {
 		margin: 1em;
 	}
 	.button {

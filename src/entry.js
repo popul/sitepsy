@@ -5,6 +5,7 @@ import { createHistory, createMemoryHistory } from 'history';
 import { Router, RouterContext, match, browserHistory } from 'react-router';
 import routes from './Routes';
 import ReactGA from 'react-ga';
+import Helmet from 'react-helmet';
 
 function logPageView() {
   ReactGA.set({ page: window.location.pathname });
@@ -13,14 +14,30 @@ function logPageView() {
 
 if (typeof document !== 'undefined') {
 	ReactGA.initialize('UA-82152802-1');
-	ReactDOM.render(<Router history={browserHistory} routes={routes} onUpdate={logPageView} />, document)
+	ReactDOM.render(<Router history={browserHistory} routes={routes} onUpdate={logPageView} />, document.getElementById('app'))
 }
 
 export default (locals, callback) => {
 	match({ routes, location: locals.path }, (error, redirectLocation, renderProps) => {
 		if (renderProps) {
-			const html = renderToString(<RouterContext {...renderProps} />);
-			callback(null, '<!DOCTYPE html>' + html);
+			const body = renderToString(<RouterContext {...renderProps} />);
+			const head = Helmet.rewind();
+			let html = `
+			<!DOCTYPE html>
+			<html>
+				<head>
+					<meta charset="utf-8" />
+					${head.title}
+					${head.meta}
+					${head.link}
+				</head>
+				<body>
+					<div id="app">${body}</div> 
+					<script src="/bundle.js"></script>
+				</body>
+			</html>
+			`;
+			callback(null, html);
 		}
 	});
 }

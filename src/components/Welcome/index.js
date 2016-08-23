@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Button } from 'react-toolbox/lib/button';
 import { browserHistory } from 'react-router';
+import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
 
 import s from './styles.css';
 
@@ -13,11 +14,13 @@ function createInitMap() {
 	return {
 		__html: `
 function initMap() {
-	var map = new google.maps.Map(document.getElementById('map'), {
-		center: {lat: -34.397, lng: 150.644},
-		scrollwheel: false,
-		zoom: 8
-	});
+	setTimeout(function() {
+		var map = new google.maps.Map(document.getElementById('map'), {
+			center: {lat: -34.397, lng: 150.644},
+			scrollwheel: false,
+			zoom: 8
+		});
+	}, 1000);
 }
 		`
 	};	
@@ -28,12 +31,12 @@ export default props => (
 		<header className={s.bgImage}>
 			<div className={s.middleSection}>
 				<div>
-					<h2>
+					<h1>
 						<span style={{fontWeight: 'bold'}}>Psychologue</span> 
 						{' '}
 						<span className="hidden-sm-down m-l-1"></span>
 						Psychothérapeute
-					</h2>
+					</h1>
 				</div>
 				<ul className={s.targets}>
 					<li>Enfants</li>
@@ -45,7 +48,9 @@ export default props => (
 					<li>Périnatalité</li>
 				</ul>
 				<div className={s.button}>
-					<Button icon='event' label="Prendre rendez-vous" raised onClick={click} />
+					<Button icon='event'raised onClick={click}>
+						<span className="hidden-sm-down">Prendre&nbsp;</span>rendez-vous
+					</Button>
 				</div>
 			</div>
 		</header>
@@ -59,6 +64,7 @@ export default props => (
 				<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 minutes), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 minutes), des séances enfants-parents ou la réalisation d'un bilan sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
 			</div>
 		</section>
+		
 		<section className={s.alternative}>
 			<div className={s.container}>
 				<div className={s.section}>

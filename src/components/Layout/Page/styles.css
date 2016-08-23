@@ -5,6 +5,22 @@
 	background-color: #FFF;
 	color: #9d9d9d;
 	height: 100%;
+	text-align: justify;
+	h1, h2, h3, h4 {
+		text-align: left;
+	}
+	h1 {
+		font-weight: normal;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	h4 {
+		font-size: 1.1em;
+	}
 }
 
 @media (--break-lg) {

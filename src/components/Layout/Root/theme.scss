@@ -1,0 +1,16 @@
+.button {
+	font-size: 1em;
+	text-transform: none;
+	line-height: 1rem;
+}
+
+.icon {
+	line-height: 1rem;
+}
+
+.drawerContent {
+	@media screen and (min-width:600px) {
+		width: 24rem !important;
+		max-width: 24rem !important;
+	}
+}
