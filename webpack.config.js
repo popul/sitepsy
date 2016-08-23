@@ -9,6 +9,10 @@ var path         = require('path');
 const data = {
   routes: [
     '/',
+    '/quisuisje',
+    '/consultations',
+    '/approches',
+    '/articles',
     '/contact',
     '/articles/illusion-incompetence'
   ]

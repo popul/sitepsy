@@ -21,6 +21,13 @@
 	h4 {
 		font-size: 1.1em;
 	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	overflow: auto;
+	padding-bottom: 3em;
 }
 
 @media (--break-lg) {

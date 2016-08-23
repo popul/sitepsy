@@ -39,13 +39,11 @@ export default props => (
 					</h1>
 				</div>
 				<ul className={s.targets}>
-					<li>Enfants</li>
-					<li className={s.pipe}>|</li>
-					<li>Adolescents</li>
-					<li className={s.pipe}>|</li>
+					<li>Enfants & Adolescents</li>
+					<li>Femmes enceintes</li>
 					<li>Parents</li>
-					<li className={`${s.pipe} ${s.hideSmall}`}>|</li>
-					<li>Périnatalité</li>
+					<li>Autisme</li>
+					<li>Bilans</li>
 				</ul>
 				<div className={s.button}>
 					<Button icon='event'raised onClick={click}>

@@ -14,17 +14,22 @@ export default props => (
 				<span className="secondary-color">Audrey BARTHELEMY</span>
 			</Link>				
 		</div>
-		 <Navigation type='horizontal' theme={theme}>
-		 	<div className={s.contact}>
-			 	<Link to="/contact">Contact</Link>
-		 	</div>
-		 </Navigation>
+		<Navigation type='horizontal' theme={theme}>
+			<Link to="/">Accueil</Link>
+			<Link to="/quisuisje">Qui suis-je ?</Link>
+			<Link to="/consultations">Consultations</Link>
+			<Link to="/approches">Approches</Link>
+			<Link to="/articles">Articles</Link>
+			<div className={s.contact}>
+				<Link to="/contact">Contact</Link>
+			</div>
+		</Navigation>
 	</AppBar>
 );
 
 /*
 
-<Link to="Partenaires">Partenaires</Link>
+
 
 <div className={s.menu}>
 

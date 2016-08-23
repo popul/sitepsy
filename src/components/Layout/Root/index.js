@@ -33,6 +33,10 @@ export default class RootLayout extends React.Component {
 	    			theme={theme}>
 					<Navigation type="vertical">
 						<Link label="Accueil" icon="home" onClick={this.goTo.bind(this, '/')} />
+						<Link label="Qui suis je ?" icon="person_pin" onClick={this.goTo.bind(this, '/quisuisje')} />
+						<Link label="Consultations" icon="mode_edit" onClick={this.goTo.bind(this, '/consultations')} />
+						<Link label="Approches" icon="search" onClick={this.goTo.bind(this, '/approches')} />
+						<Link label="Articles" icon="library_books" onClick={this.goTo.bind(this, '/articles')} />
 						<Link label="Contact" icon="contact_phone" onClick={this.goTo.bind(this, '/contact')} />
 					</Navigation>
 	    		</NavDrawer>

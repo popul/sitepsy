@@ -29,9 +29,8 @@ address {
 
 a:link, a:visited, a:hover {
 	text-decoration: none;
-	color: color($primary lightness(85%));
+	color: color($primary lightness(10%));
 }
-
 
 .secondary-color {
 	color: $secondary;

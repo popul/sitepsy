@@ -16,14 +16,30 @@
 	height: 100%;
 	display:none;
 
-	@media (min-width: 768px) {
+	@media (min-width: 960px) {
 		display:flex;
 	}
 	a {
 		display: flex;
-		padding: 0 2em;
+		padding: 0 1em;
 		align-items: center;
 		justify-content: center;
 		color: #000;
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #42c3cf;
+			height: 0;
+			opacity: 0;
+			transition: height 0.2s, opacity 0.2s;
+		}
+		&:hover:before {
+			height: 8px;
+			opacity: 1;
+		}
 	}	
 }
