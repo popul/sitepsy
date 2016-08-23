@@ -52,15 +52,7 @@ export default class RootLayout extends React.Component {
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} />
-			    	<Layout>
-	    				<Panel scrollY={true}>
-							<div className={s.container}>
-								<div className={s.content}>
-									{this.props.children}
-								</div>
-							</div>
-						</Panel>
-					</Layout>
+					{this.props.children}
 	    		</Panel>
 	    	</Layout>
 		);

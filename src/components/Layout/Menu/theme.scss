@@ -2,7 +2,8 @@
 
 .appBar {
 	background-color: #FFF;
-	height: 4em;
+	min-height: 4em;
+	max-height: 4em;
 	font-weight: normal;
 	padding-right: 0;
 
