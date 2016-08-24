@@ -3,7 +3,13 @@ import styles from 'styles/styles.css';
 import Menu from '../Menu';
 import Helmet from 'react-helmet';
 import { browserHistory } from 'react-router';
-import { Layout, NavDrawer, Panel, Sidebar, Navigation, FontIcon, Button, Link } from 'react-toolbox';
+import { Layout, NavDrawer, Panel } from 'react-toolbox/lib/layout';
+import Navigation from 'react-toolbox/lib/navigation';
+import FontIcon from 'react-toolbox/lib/font_icon';
+import Button from 'react-toolbox/lib/button';
+import Link from 'react-toolbox/lib/link';
+
+//import { Layout, NavDrawer, Panel, Sidebar, Navigation, FontIcon, Button, Link } from 'react-toolbox';
 
 import s from './styles.css';
 import theme from './theme.scss';

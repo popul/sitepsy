@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { AppBar, Navigation, IconButton } from 'react-toolbox';
+import AppBar from 'react-toolbox/lib/app_bar';
+import Navigation from 'react-toolbox/lib/navigation';
+import { IconButton } from 'react-toolbox/lib/button';
+import FontIcon from 'react-toolbox/lib/font_icon';
 import s from './styles.css';
 import theme from './theme.scss';
 
@@ -21,6 +24,7 @@ export default props => (
 			<Link to="/approches">Approches</Link>
 			<Link to="/articles">Articles</Link>
 			<div className={s.contact}>
+				<FontIcon value="phone" />
 				<Link to="/contact">Contact</Link>
 			</div>
 		</Navigation>

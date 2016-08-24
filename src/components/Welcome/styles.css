@@ -45,6 +45,7 @@
 		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../../../assets/images/fond.jpg") no-repeat top center;
 		background-size: cover;
 		background-attachment: fixed;
+		filter: blur(5px);
 	}
 
 	.middleSection {
