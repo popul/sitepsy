@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import QuiSuisJe, {meta as metaQuiSuisJe} from './components/Pages/quisuisje.md';
 import Consultations, {meta as metaConsultations} from './components/Pages/consultations.md';
 import Approches, {meta as metaApproches} from './components/Pages/approches.md';
-import Articles, {meta as metaArticles} from './components/Pages/articles.md';
+import Articles from './components/Pages/Articles';
 import Illusion, {meta as metaIllusion} from './components/Articles/illusion-incompetence.md';
 import Helmet from 'react-helmet';
 
@@ -28,7 +28,7 @@ export default (
 		<Route path="approches" component={Wrapper(Approches, metaApproches)} />
   		<Route path="articles">
 			<Route path="illusion-incompetence" component={Wrapper(Illusion, metaIllusion)} />
-			<IndexRoute component={Wrapper(Articles, metaArticles)} />
+			<IndexRoute component={Articles} />
   		</Route>
   	</Route>
   </Route>
