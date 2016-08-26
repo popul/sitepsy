@@ -15,6 +15,23 @@ import NativeListener from 'react-native-listener';
 import s from './styles.css';
 import theme from './theme.scss';
 
+function getJSONLDMarkup() {
+	return {
+		__html: `
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Audrey Barthélémy",
+  "jobTitle": "Psychologue",
+  "telephone": "0633065738",
+  "url": "https://www.abarthelemy-psychologue-toulouse.fr"
+}
+</script>
+`
+	};
+}
+
 export default class RootLayout extends React.Component {
 	constructor(props) {
 		super(props);
@@ -60,6 +77,7 @@ export default class RootLayout extends React.Component {
 					</Navigation>
 	    		</NavDrawer>
 	    		<Panel>
+					<span dangerouslySetInnerHTML={getJSONLDMarkup()}></span>
 					<Helmet 
 						title="A. Barthélémy Psychologue Psychothérapeute Toulouse enfant ado parent"
 						link={[
