@@ -8,6 +8,7 @@ import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Button from 'react-toolbox/lib/button';
 import Link from 'react-toolbox/lib/link';
+import NativeListener from 'react-native-listener';
 
 //import { Layout, NavDrawer, Panel, Sidebar, Navigation, FontIcon, Button, Link } from 'react-toolbox';
 
@@ -26,6 +27,10 @@ export default class RootLayout extends React.Component {
 		this.setState({ drawerActive: !this.state.drawerActive });
 	}
 
+	goTo(path) {
+		browserHistory.push(path);
+	}
+
 	render() {
 	    return (
 	    	<Layout>
@@ -34,12 +39,24 @@ export default class RootLayout extends React.Component {
 	    			onOverlayClick={ this.toggleDrawerActive.bind(this) }
 	    			theme={theme}>
 					<Navigation type="vertical">
-						<Link label="Accueil" href="/" icon="home" />
-						<Link label="Qui suis je ?" href="/quisuisje" icon="person_pin" />
-						<Link label="Consultations" href="/consultations" icon="mode_edit" />
-						<Link label="Approches" href="/approches" icon="search" />
-						<Link label="Articles" href="/articles" icon="library_books" />
-						<Link label="Contact" href="/contact" icon="contact_phone" />
+						<NativeListener onClick={this.goTo.bind(this, '/')}>
+							<Link label="Accueil" href="/" icon="home" />
+						</NativeListener>
+						<NativeListener onClick={this.goTo.bind(this, '/quisuisje')}>
+							<Link label="Qui suis je ?" href="/quisuisje" icon="person_pin" />
+						</NativeListener>
+						<NativeListener onClick={this.goTo.bind(this, '/consultations')}>
+							<Link label="Consultations" href="/consultations" icon="mode_edit" />
+						</NativeListener>
+						<NativeListener onClick={this.goTo.bind(this, '/approches')}>
+							<Link label="Approches" href="/approches" icon="search" />
+						</NativeListener>
+						<NativeListener onClick={this.goTo.bind(this, '/articles')}>
+							<Link label="Articles" href="/articles" icon="library_books" />
+						</NativeListener>
+						<NativeListener onClick={this.goTo.bind(this, '/contact')}>
+							<Link label="Contact" href="/contact" icon="contact_phone" />
+						</NativeListener>
 					</Navigation>
 	    		</NavDrawer>
 	    		<Panel>
