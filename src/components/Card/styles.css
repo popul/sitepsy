@@ -1,0 +1,8 @@
+a.link {
+	text-decoration: none !important;
+	font-size: 1.4em;
+	&:hover {
+		font-weight: bold;
+	}
+}
+

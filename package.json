@@ -27,7 +27,6 @@
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
     "react": "^15.2.1",
-    "react-native-listener": "^1.0.1",
     "react-router": "^2.5.2",
     "reactdown": "^1.0.0-alpha14",
     "rimraf": "^2.5.3",

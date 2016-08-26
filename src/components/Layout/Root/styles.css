@@ -12,3 +12,18 @@
 		margin-top: 0;
 	}
 }
+
+.link {
+	margin:0.5em 1em;
+	.icon {
+		line-height: 36px;
+		margin-right: 1em;
+		vertical-align: bottom;
+		display: inline-block;
+	}
+	.text {
+		line-height: 36px;
+		display: inline-block;
+	}
+}
+

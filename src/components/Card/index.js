@@ -1,14 +1,9 @@
 import React from 'react';
 import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
-import Link from 'react-toolbox/lib/link';
-import { browserHistory } from 'react-router';
-import NativeListener from 'react-native-listener';
+import { browserHistory, Link } from 'react-router';
 
 import theme from './theme.scss';
-
-const goTo = path => {
-	browserHistory.push(path);
-}
+import s from './styles.css';
 
 export default props => (
 	<Card style={{width: '350px'}} theme={theme}>
@@ -23,9 +18,7 @@ export default props => (
 			/>
 		<CardText theme={theme}>{props.summary}</CardText>
 		<CardActions theme={theme}>
-			<NativeListener onClick={goTo.bind(this, props.link)}>
-				<Link label="Lire" href={props.link} theme={theme} />
-			</NativeListener>
+			<Link className={s.link} to={props.link}>Lire</Link>
 		</CardActions>
 	</Card>
 );
