@@ -8,7 +8,6 @@ import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Button from 'react-toolbox/lib/button';
 import Link from 'react-toolbox/lib/link';
-import NativeListener from 'react-native-listener';
 
 //import { Layout, NavDrawer, Panel, Sidebar, Navigation, FontIcon, Button, Link } from 'react-toolbox';
 
