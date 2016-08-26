@@ -6,6 +6,7 @@ import Card from '../../Card';
 import s from './styles.css';
 
 require('../../../../assets/images/illusion.jpg');
+require('../../../../assets/images/jeux-jouets-bebe.jpg');
 
 export default props => (
 	<div>
