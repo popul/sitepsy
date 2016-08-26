@@ -42,19 +42,19 @@ export default class RootLayout extends React.Component {
 						<NativeListener onClick={this.goTo.bind(this, '/')}>
 							<Link label="Accueil" href="/" icon="home" />
 						</NativeListener>
-						<NativeListener onClick={this.goTo.bind(this, '/quisuisje')}>
+						<NativeListener onClick={this.goTo.bind(this, '/quisuisje/')}>
 							<Link label="Qui suis je ?" href="/quisuisje" icon="person_pin" />
 						</NativeListener>
-						<NativeListener onClick={this.goTo.bind(this, '/consultations')}>
+						<NativeListener onClick={this.goTo.bind(this, '/consultations/')}>
 							<Link label="Consultations" href="/consultations" icon="mode_edit" />
 						</NativeListener>
-						<NativeListener onClick={this.goTo.bind(this, '/approches')}>
+						<NativeListener onClick={this.goTo.bind(this, '/approches/')}>
 							<Link label="Approches" href="/approches" icon="search" />
 						</NativeListener>
-						<NativeListener onClick={this.goTo.bind(this, '/articles')}>
+						<NativeListener onClick={this.goTo.bind(this, '/articles/')}>
 							<Link label="Articles" href="/articles" icon="library_books" />
 						</NativeListener>
-						<NativeListener onClick={this.goTo.bind(this, '/contact')}>
+						<NativeListener onClick={this.goTo.bind(this, '/contact/')}>
 							<Link label="Contact" href="/contact" icon="contact_phone" />
 						</NativeListener>
 					</Navigation>
