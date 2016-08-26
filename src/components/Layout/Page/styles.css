@@ -29,6 +29,7 @@
 
 	overflow: auto;
 	padding-bottom: 3em;
+	word-break: break-word;
 }
 
 @media (--break-lg) {

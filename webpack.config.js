@@ -14,7 +14,8 @@ const data = {
     '/approches',
     '/articles',
     '/contact',
-    '/articles/illusion-incompetence'
+    '/articles/illusion-incompetence',
+    '/articles/jeux-jouets-bebe'
   ]
 };
 
