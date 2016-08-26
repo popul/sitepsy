@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+var SitemapPlugin = require('sitemap-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var precss       = require('precss');
 var autoprefixer = require('autoprefixer');
@@ -54,6 +55,7 @@ module.exports = {
   plugins: [
     new StaticSiteGeneratorPlugin('bundle.js', data.routes, data),
     new ExtractTextPlugin("styles.css"),
+    new SitemapPlugin('https://www.abarthelemy-psychologue-toulouse.fr', data.routes),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)

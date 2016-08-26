@@ -29,6 +29,12 @@
 	padding-top: 0;
 }
 
-.button {
-	font-size: 1.2em;
+.link {
+	font-size: 1rem;
+	abbr {
+		text-transform: uppercase;
+	}
+	&:hover {
+		text-decoration: none !important;
+	}
 }

@@ -1,15 +1,11 @@
 import React from 'react';
 import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
-import { Button } from 'react-toolbox/lib/button';
+import Link from 'react-toolbox/lib/link';
 import { browserHistory } from 'react-router';
 
 import theme from './theme.scss';
 
 require('../../../assets/images/avatar.jpg');
-
-const goTo = path => {
-	browserHistory.push(path);
-}
 
 export default props => (
 	<Card style={{width: '350px'}} theme={theme}>
@@ -25,7 +21,7 @@ export default props => (
 			/>
 		<CardText theme={theme}>{props.summary}</CardText>
 		<CardActions theme={theme}>
-			<Button label="Lire" theme={theme} onClick={goTo.bind(this, props.link)} />
+			<Link label="Lire" href={props.link} theme={theme} />
 		</CardActions>
 	</Card>
 );
