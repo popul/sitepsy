@@ -10,6 +10,7 @@ import Approches, {meta as metaApproches} from './components/Pages/approches.md'
 import Articles from './components/Pages/Articles';
 import Illusion, {meta as metaIllusion} from './components/Articles/illusion-incompetence.md';
 import JeuxJouets, {meta as metaJeuxJouets} from './components/Articles/jeux-jouets-bebe.md';
+import ClochesPaques, {meta as metaClochesPaques} from './components/Articles/cloches-paques.md';
 import Helmet from 'react-helmet';
 
 const Wrapper = (Content, meta) => props => {
@@ -30,6 +31,7 @@ export default (
   		<Route path="articles">
 			<Route path="illusion-incompetence" component={Wrapper(Illusion, metaIllusion)} />
 			<Route path="jeux-jouets-bebe" component={Wrapper(JeuxJouets, metaJeuxJouets)} />
+			<Route path="cloches-paques" component={Wrapper(ClochesPaques, metaClochesPaques)} />
 			<IndexRoute component={Articles} />
   		</Route>
   	</Route>

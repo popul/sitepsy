@@ -6,22 +6,19 @@ import NativeListener from 'react-native-listener';
 
 import theme from './theme.scss';
 
-require('../../../assets/images/avatar.jpg');
-
 const goTo = path => {
 	browserHistory.push(path);
 }
 
 export default props => (
 	<Card style={{width: '350px'}} theme={theme}>
-		<CardTitle
-			avatar='/assets/images/avatar.jpg'
-			title={props.title}
-			theme={theme}
-			/>
 		<CardMedia
 			aspectRatio="wide"
 			image={props.image}
+			theme={theme}
+			/>
+		<CardTitle
+			title={props.title}
 			theme={theme}
 			/>
 		<CardText theme={theme}>{props.summary}</CardText>
