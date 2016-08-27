@@ -20,7 +20,8 @@ const data = {
     '/articles/jeux-jouets-bebe',
     '/articles/cloches-paques',
     '/articles/bebe-me-dit-toujours-non',
-    '/articles/favoriser-developpement-psychomoteur-bebe'
+    '/articles/favoriser-developpement-psychomoteur-bebe',
+    '/articles/meditation-prenatale-influence-bien-etre-bebe'
   ]
 };
 

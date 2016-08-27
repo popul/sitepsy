@@ -10,6 +10,7 @@ require('../../../../assets/images/jeux-jouets-bebe.jpg');
 require('../../../../assets/images/cloches-paques.jpg');
 require('../../../../assets/images/bebe-non.jpg');
 require('../../../../assets/images/motricite-bebe.jpg');
+require('../../../../assets/images/meditation-prenatale.jpg');
 
 export default props => (
 	<div>
@@ -41,6 +42,11 @@ export default props => (
 				link="/articles/favoriser-developpement-psychomoteur-bebe/"
 				image="/assets/images/motricite-bebe.jpg"
 				summary="Parce qu’apprendre à marcher est une grande étape dans la vie de bébé, vous êtes attentif à ce que tout se passe bien du point de vue de son développement psychomoteur. Vous vous demandez peut-être quelles sont les étapes par lesquelles il doit passer avant d’arriver à se déplacer debout et quelles sont les bonnes pratiques que l’on doit adopter pour favoriser le bon développement de bébé." />
+			<Card
+				title="La méditation prénatale influence le bien-être et le tempéraement des bébés"
+				link="/articles/meditation-prenatale-influence-bien-etre-bebe/"
+				image="/assets/images/meditation-prenatale.jpg"
+				summary="Ka Po Chan de l’Institut Bouddhiste d’Hong Kong étudie le rôle de la méditation maternelle sur la santé du bébé avant et après sa naissance. Selon lui, la méditation a des effets positifs sur la santé de la mère et améliore la santé du bébé in et hors utéro." />
 		</div>
 
 	</div>
