@@ -8,27 +8,29 @@ import s from './styles.css';
 import theme from './theme.scss';
 
 export default props => (
-	<AppBar theme={theme}>
-		<IconButton 
-			icon='menu' 
-			onClick={ props.toggleDrawerActive } />
-		<div className={s.logo}>
-			<Link to="/">
-				<span className="secondary-color">Audrey BARTHELEMY</span>
-			</Link>				
-		</div>
-		<Navigation type='horizontal' theme={theme}>
-			<Link to="/">Accueil</Link>
-			<Link to="/quisuisje/">Qui suis-je ?</Link>
-			<Link to="/consultations/">Consultations</Link>
-			<Link to="/approches/">Approches</Link>
-			<Link to="/articles/">Articles</Link>
-			<div className={s.contact}>
-				<FontIcon value="phone" />
-				<Link to="/contact/">Contact</Link>
+	<div className='contentMenu'>
+		<AppBar theme={theme}>
+			<IconButton 
+				icon='menu' 
+				onClick={ props.toggleDrawerActive } />
+			<div className={s.logo}>
+				<Link to="/">
+					<span className="secondary-color">Audrey BARTHELEMY</span>
+				</Link>				
 			</div>
-		</Navigation>
-	</AppBar>
+			<Navigation type='horizontal' theme={theme}>
+				<Link to="/">Accueil</Link>
+				<Link to="/quisuisje/">Qui suis-je ?</Link>
+				<Link to="/consultations/">Consultations</Link>
+				<Link to="/approches/">Approches</Link>
+				<Link to="/articles/">Articles</Link>
+				<div className={s.contact}>
+					<FontIcon value="phone" />
+					<Link to="/contact/">Contact</Link>
+				</div>
+			</Navigation>
+		</AppBar>		
+	</div>
 );
 
 /*

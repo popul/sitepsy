@@ -6,6 +6,7 @@ import { browserHistory, Link } from 'react-router';
 import { Layout, NavDrawer, Panel } from 'react-toolbox/lib/layout';
 import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
+import Footer from '../Footer';
 
 import s from './styles.css';
 import theme from './theme.scss';
@@ -66,7 +67,7 @@ export default class RootLayout extends React.Component {
 						<IconLink icon="contact_phone" to="/contact" text="Contact" />
 					</Navigation>
 	    		</NavDrawer>
-	    		<Panel>
+	    		<Panel scrollY={true} theme={theme}>
 					<span dangerouslySetInnerHTML={getJSONLDMarkup()}></span>
 					<Helmet 
 						title="A. Barthélémy Psychologue Toulouse La Salvetat Enfants Adolescents Parents"
@@ -80,6 +81,7 @@ export default class RootLayout extends React.Component {
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} />
 					{this.props.children}
+					<Footer />
 	    		</Panel>
 	    	</Layout>
 		);

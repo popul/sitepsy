@@ -1,5 +1,10 @@
 @import "../../../../assets/styles/common.css";
 
+:global(.contentMenu) {
+	min-height: 4em;
+	max-height: 4em;
+}
+
 .menu {
 	$borderColor: #CCC;
 	color: color($primary lightness(30%));

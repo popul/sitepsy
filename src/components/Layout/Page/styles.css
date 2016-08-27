@@ -4,7 +4,6 @@
 	padding: 2em 2em 2em 1em;
 	background-color: #FFF;
 	color: #6d6d6d;
-	height: 100%;
 	text-align: justify;
 	h1, h2, h3, h4 {
 		text-align: left;
@@ -27,9 +26,9 @@
 		text-decoration: underline;
 	}
 
-	overflow: auto;
 	padding-bottom: 3em;
 	word-break: break-word;
+	flex: 1;
 }
 
 @media (--break-lg) {

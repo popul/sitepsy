@@ -6,6 +6,9 @@
 	max-height: 4em;
 	font-weight: normal;
 	padding-right: 0;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
 
 	@media (max-width: 576px) {
 		padding-left: 0;
