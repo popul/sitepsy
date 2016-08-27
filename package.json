@@ -33,11 +33,13 @@
     "sass-loader": "^4.0.0",
     "sitemap-webpack-plugin": "^0.1.0",
     "static-site-generator-webpack-plugin": "^2.1.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.15.0"
   },
   "dependencies": {
     "normalize.css": "^4.2.0",
     "react-addons-css-transition-group": "^15.3.1",
+    "react-addons-update": "^15.3.1",
     "react-ga": "^2.1.1",
     "react-helmet": "^3.1.0",
     "react-toolbox": "^1.0.3"

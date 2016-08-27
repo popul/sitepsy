@@ -47,6 +47,7 @@ export default class Welcome extends React.Component {
 	resizeHeight() {
 		const menuHeight = document.querySelector('.contentMenu').offsetHeight;
 		this.refs.header.style.minHeight = (getWindowHeight() - menuHeight) + 'px';
+		this.refs.header.style.height = (getWindowHeight() - menuHeight) + 'px';
 	}
 
 	render() {
