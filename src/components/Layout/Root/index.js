@@ -69,7 +69,7 @@ export default class RootLayout extends React.Component {
 	    		<Panel>
 					<span dangerouslySetInnerHTML={getJSONLDMarkup()}></span>
 					<Helmet 
-						title="A. Barthélémy Psychologue Psychothérapeute Toulouse enfant ado parent"
+						title="A. Barthélémy Psychologue Toulouse La Salvetat Enfants Adolescents Parents"
 						link={[
 							{"rel": "stylesheet", "type": "text/css", "href": "/styles.css"},
 							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"}
