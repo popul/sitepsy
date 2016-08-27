@@ -12,6 +12,7 @@ import Illusion, {meta as metaIllusion} from './components/Articles/illusion-inc
 import JeuxJouets, {meta as metaJeuxJouets} from './components/Articles/jeux-jouets-bebe.md';
 import ClochesPaques, {meta as metaClochesPaques} from './components/Articles/cloches-paques.md';
 import BebeNon, {meta as metaBebeNon} from './components/Articles/bebe-me-dit-toujours-non.md';
+import MotriciteBebe, {meta as metaMotriciteBebe} from './components/Articles/favoriser-developpement-psychomoteur-bebe.md';
 import Referencement, {meta as metaReferencement} from './components/Pages/referencement.md';
 import Helmet from 'react-helmet';
 
@@ -36,6 +37,7 @@ export default (
 			<Route path="jeux-jouets-bebe" component={Wrapper(JeuxJouets, metaJeuxJouets)} />
 			<Route path="cloches-paques" component={Wrapper(ClochesPaques, metaClochesPaques)} />
 			<Route path="bebe-me-dit-toujours-non" component={Wrapper(BebeNon, metaBebeNon)} />
+			<Route path="favoriser-developpement-psychomoteur-bebe" component={Wrapper(MotriciteBebe, metaMotriciteBebe)} />
 			<IndexRoute component={Articles} />
   		</Route>
   	</Route>

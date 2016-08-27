@@ -19,7 +19,8 @@ const data = {
     '/articles/illusion-incompetence',
     '/articles/jeux-jouets-bebe',
     '/articles/cloches-paques',
-    '/articles/bebe-me-dit-toujours-non'
+    '/articles/bebe-me-dit-toujours-non',
+    '/articles/favoriser-developpement-psychomoteur-bebe'
   ]
 };
 

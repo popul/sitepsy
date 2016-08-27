@@ -9,6 +9,7 @@ require('../../../../assets/images/illusion.jpg');
 require('../../../../assets/images/jeux-jouets-bebe.jpg');
 require('../../../../assets/images/cloches-paques.jpg');
 require('../../../../assets/images/bebe-non.jpg');
+require('../../../../assets/images/motricite-bebe.jpg');
 
 export default props => (
 	<div>
@@ -35,6 +36,11 @@ export default props => (
 				link="/articles/bebe-me-dit-toujours-non/"
 				image="/assets/images/bebe-non.jpg"
 				summary="Peut-être parce que je lui dis toujours non ?!? A quatre pattes ou droit dans ses baskets, bébé se déplace partout en un temps record. A peine le dos tourné, il part explorer le bac à douche encore humide, vider la poubelle, tester la texture de la terre de la plante verte ou la solidité de la télécommande, explorer la propreté de la litière du chat !" />
+			<Card
+				title="Comment favoriser le développement psychomoteur de mon bébé ?"
+				link="/articles/favoriser-developpement-psychomoteur-bebe/"
+				image="/assets/images/motricite-bebe.jpg"
+				summary="Parce qu’apprendre à marcher est une grande étape dans la vie de bébé, vous êtes attentif à ce que tout se passe bien du point de vue de son développement psychomoteur. Vous vous demandez peut-être quelles sont les étapes par lesquelles il doit passer avant d’arriver à se déplacer debout et quelles sont les bonnes pratiques que l’on doit adopter pour favoriser le bon développement de bébé." />
 		</div>
 
 	</div>
