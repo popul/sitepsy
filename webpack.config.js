@@ -15,6 +15,7 @@ const data = {
     '/approches',
     '/articles',
     '/contact',
+    '/referencement',
     '/articles/illusion-incompetence',
     '/articles/jeux-jouets-bebe',
     '/articles/cloches-paques'

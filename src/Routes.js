@@ -11,6 +11,7 @@ import Articles from './components/Pages/Articles';
 import Illusion, {meta as metaIllusion} from './components/Articles/illusion-incompetence.md';
 import JeuxJouets, {meta as metaJeuxJouets} from './components/Articles/jeux-jouets-bebe.md';
 import ClochesPaques, {meta as metaClochesPaques} from './components/Articles/cloches-paques.md';
+import Referencement, {meta as metaReferencement} from './components/Pages/referencement.md';
 import Helmet from 'react-helmet';
 
 const Wrapper = (Content, meta) => props => {
@@ -28,6 +29,7 @@ export default (
 		<Route path="quisuisje" component={Wrapper(QuiSuisJe, metaQuiSuisJe)} />
 		<Route path="consultations" component={Wrapper(Consultations, metaConsultations)} />
 		<Route path="approches" component={Wrapper(Approches, metaApproches)} />
+		<Route path="referencement" component={Wrapper(Referencement, metaReferencement)} />
   		<Route path="articles">
 			<Route path="illusion-incompetence" component={Wrapper(Illusion, metaIllusion)} />
 			<Route path="jeux-jouets-bebe" component={Wrapper(JeuxJouets, metaJeuxJouets)} />
