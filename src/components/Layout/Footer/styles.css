@@ -4,4 +4,5 @@
 	padding: 1em;
 	background-color: #FFF;
 	color: #999;
+	flex-shrink: 0;
 }
