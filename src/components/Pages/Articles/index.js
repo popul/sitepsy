@@ -11,6 +11,7 @@ require('../../../../assets/images/cloches-paques.jpg');
 require('../../../../assets/images/bebe-non.jpg');
 require('../../../../assets/images/motricite-bebe.jpg');
 require('../../../../assets/images/meditation-prenatale.jpg');
+require('../../../../assets/images/bebe-in-utero-emotion-maternelle.jpg');
 
 export default props => (
 	<div>
