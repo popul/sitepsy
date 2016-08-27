@@ -28,7 +28,7 @@
 
 	padding-bottom: 3em;
 	word-break: break-word;
-	flex: 1;
+	flex: 1 0 auto;
 }
 
 @media (--break-lg) {

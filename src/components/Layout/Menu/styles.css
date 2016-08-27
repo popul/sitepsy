@@ -3,6 +3,7 @@
 :global(.contentMenu) {
 	min-height: 4em;
 	max-height: 4em;
+	z-index: 10;
 }
 
 .menu {
@@ -19,7 +20,6 @@
 	border-bottom: 1px solid #ddd;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
 	h1 {
 		font-weight: normal;
 		color: color($primary lightness(30%));
