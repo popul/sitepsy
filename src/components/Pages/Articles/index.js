@@ -8,6 +8,7 @@ import s from './styles.css';
 require('../../../../assets/images/illusion.jpg');
 require('../../../../assets/images/jeux-jouets-bebe.jpg');
 require('../../../../assets/images/cloches-paques.jpg');
+require('../../../../assets/images/bebe-non.jpg');
 
 export default props => (
 	<div>
@@ -29,6 +30,11 @@ export default props => (
 				link="/articles/cloches-paques/"
 				image="/assets/images/cloches-paques.jpg"
 				summary="Croire aux cloches, lapins ou poules de Pâques qui passent pendant la nuit cacher des œufs dans le jardin, c’est incroyable pour un adulte. C’est surnaturel ! Pourquoi les enfants y croient-ils ?" />
+			<Card
+				title="Pourquoi mon bébé me dit toujours non ?"
+				link="/articles/bebe-me-dit-toujours-non/"
+				image="/assets/images/bebe-non.jpg"
+				summary="Peut-être parce que je lui dis toujours non ?!? A quatre pattes ou droit dans ses baskets, bébé se déplace partout en un temps record. A peine le dos tourné, il part explorer le bac à douche encore humide, vider la poubelle, tester la texture de la terre de la plante verte ou la solidité de la télécommande, explorer la propreté de la litière du chat !" />
 		</div>
 
 	</div>

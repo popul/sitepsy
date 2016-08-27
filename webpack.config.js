@@ -18,7 +18,8 @@ const data = {
     '/referencement',
     '/articles/illusion-incompetence',
     '/articles/jeux-jouets-bebe',
-    '/articles/cloches-paques'
+    '/articles/cloches-paques',
+    '/articles/bebe-me-dit-toujours-non'
   ]
 };
 
