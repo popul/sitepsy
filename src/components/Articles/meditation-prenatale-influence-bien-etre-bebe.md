@@ -1,8 +1,8 @@
 ---
-title: La méditation prénatale influence le bien-être et le tempéraement des bébés
+title: La méditation prénatale influence le bien-être et le tempérament des bébés
 ---
 
-# La méditation prénatale influence le bien-être et le tempéraement des bébés
+# La méditation prénatale influence le bien-être et le tempérament des bébés
 
 Ka Po Chan de l’Institut Bouddhiste d’Hong Kong étudie le rôle de la méditation maternelle sur la santé du bébé avant et après sa naissance. Selon lui, **la méditation a des effets positifs sur la santé de la mère et améliore la santé du bébé in et hors utéro. **
 

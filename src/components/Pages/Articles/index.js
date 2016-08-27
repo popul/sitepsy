@@ -43,10 +43,15 @@ export default props => (
 				image="/assets/images/motricite-bebe.jpg"
 				summary="Parce qu’apprendre à marcher est une grande étape dans la vie de bébé, vous êtes attentif à ce que tout se passe bien du point de vue de son développement psychomoteur. Vous vous demandez peut-être quelles sont les étapes par lesquelles il doit passer avant d’arriver à se déplacer debout et quelles sont les bonnes pratiques que l’on doit adopter pour favoriser le bon développement de bébé." />
 			<Card
-				title="La méditation prénatale influence le bien-être et le tempéraement des bébés"
+				title="La méditation prénatale influence le bien-être et le tempérament des bébés"
 				link="/articles/meditation-prenatale-influence-bien-etre-bebe/"
 				image="/assets/images/meditation-prenatale.jpg"
 				summary="Ka Po Chan de l’Institut Bouddhiste d’Hong Kong étudie le rôle de la méditation maternelle sur la santé du bébé avant et après sa naissance. Selon lui, la méditation a des effets positifs sur la santé de la mère et améliore la santé du bébé in et hors utéro." />
+			<Card
+				title="Les bébés in utéro ressentent les émotions maternelles"
+				link="/articles/bebe-in-utero-emotion-maternelle/"
+				image="/assets/images/bebe-in-utero-emotion-maternelle.jpg"
+				summary="Certains psychologues et psychiatres affirment que l’enfant, avant sa naissance, peut ressentir certaines émotions et possèderait déjà des sentiments, conscience et souvenirs. Tout ce qui peut arriver à ses parents et à lui-même pendant les 9 mois de la grossesse jouerait un rôle très important dans la formation et la structuration de la personnalité." />
 		</div>
 
 	</div>

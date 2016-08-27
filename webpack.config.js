@@ -21,7 +21,8 @@ const data = {
     '/articles/cloches-paques',
     '/articles/bebe-me-dit-toujours-non',
     '/articles/favoriser-developpement-psychomoteur-bebe',
-    '/articles/meditation-prenatale-influence-bien-etre-bebe'
+    '/articles/meditation-prenatale-influence-bien-etre-bebe',
+    '/articles/bebe-in-utero-emotion-maternelle'
   ]
 };
 

@@ -14,6 +14,7 @@ import ClochesPaques, {meta as metaClochesPaques} from './components/Articles/cl
 import BebeNon, {meta as metaBebeNon} from './components/Articles/bebe-me-dit-toujours-non.md';
 import MotriciteBebe, {meta as metaMotriciteBebe} from './components/Articles/favoriser-developpement-psychomoteur-bebe.md';
 import MeditationPrenatale, {meta as metaMeditationPrenatale} from './components/Articles/meditation-prenatale-influence-bien-etre-bebe.md';
+import BebeEmotionMaternelle, {meta as metaBebeEmotionMaternelle} from './components/Articles/bebe-in-utero-emotion-maternelle.md';
 import Referencement, {meta as metaReferencement} from './components/Pages/referencement.md';
 import Helmet from 'react-helmet';
 
@@ -40,6 +41,7 @@ export default (
 			<Route path="bebe-me-dit-toujours-non" component={Wrapper(BebeNon, metaBebeNon)} />
 			<Route path="favoriser-developpement-psychomoteur-bebe" component={Wrapper(MotriciteBebe, metaMotriciteBebe)} />
 			<Route path="meditation-prenatale-influence-bien-etre-bebe" component={Wrapper(MeditationPrenatale, metaMeditationPrenatale)} />
+			<Route path="bebe-in-utero-emotion-maternelle" component={Wrapper(BebeEmotionMaternelle, metaBebeEmotionMaternelle)} />
 			<IndexRoute component={Articles} />
   		</Route>
   	</Route>
