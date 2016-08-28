@@ -103,6 +103,9 @@ ul.targets {
 section.alternative {
 	background-color: $secondary;
 	color: white;
+	a {
+		color: white !important;
+	}
 }
 
 .section {

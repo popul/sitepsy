@@ -73,6 +73,12 @@ h1, h2 {
 	font-weight: 300;
 }
 
+h3 {
+	font-family: "Roboto";
+	color: $primary;
+	font-weight: normal;	
+}
+
 .topSection, .middleSection, .bottomSection {
 	flex:1;
 	text-align: center;

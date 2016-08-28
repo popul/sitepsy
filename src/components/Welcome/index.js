@@ -3,6 +3,8 @@ import { Link } from 'react-router';
 import { Button } from 'react-toolbox/lib/button';
 import { browserHistory } from 'react-router';
 
+import Contact from '../Contact';
+
 import s from './styles.css';
 
 function click() {
@@ -92,48 +94,20 @@ export default class Welcome extends React.Component {
 				
 				<section className={s.alternative}>
 					<div className={s.container}>
-						<div className={s.section}>
-							<strong>Adresse du cabinet</strong>
-							<address>
-								4 avenue des capitouls
-								31880 La Salvetat Saint Gilles
-							</address>
-						</div>
-						<div id="map"></div>
-						<script dangerouslySetInnerHTML={createInitMap()}></script>
-						<div className={s.section}>
-							<strong>Téléphone</strong>
-							<div>06 33 06 57 38</div>			
-						</div>
-						<div className={s.section}>
-							<strong>Email</strong>
-							<div>
-								<a 
-									href="mailto:audrey.barthelemy@outlook.com?subject=Demande de rendez-vous">
-									audrey.barthelemy@outlook.com
-								</a>
-							</div>			
-						</div>	
-						<div className={s.section}>
-							<strong>Horaires d'ouverture</strong>
-							<div>De 9h à 20h (du Lundi au Samedi)</div>			
-						</div>
-						<div className={s.section}>
-							<strong>Tarif des consultations</strong>
-							<div>
-								50€ la séance <br/>
-								Une séance dure 45 minutes
-							</div>
-						</div>
+						<Contact 
+							title='h2'
+							subTitles='h3'/>
 					</div>
 				</section>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSVu1BbhKtDNSkNwZnHFULLJsW0hr6WQU&callback=initMap"
-		    async defer></script>
 			</div>
 		);
 	}
-
 }
+
+// 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSVu1BbhKtDNSkNwZnHFULLJsW0hr6WQU&callback=initMap"
+//		    async defer></script>
+
+
 
 /*
 			<div className="bottomSection">

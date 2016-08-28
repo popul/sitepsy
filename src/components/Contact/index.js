@@ -4,10 +4,10 @@ import FontIcon from 'react-toolbox/lib/font_icon';
 
 import s from './styles.css';
 
-export default props => (
+const Contact = props => (
 	<div className={s.content}>
 		<Helmet title="Contact" />
-		<h1>Contactez-moi</h1>
+		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
 				<div className={s.section}>
@@ -31,12 +31,12 @@ export default props => (
 					</div>			
 				</div>	
 				<div className={`${s.section} m-t-2`}>
-					<h2>Horaires d'ouverture</h2>
+					{React.createElement(props.subTitles, {}, 'Horaires d\'ouverture')}
 					<FontIcon value='access_time' />
 					<div>De 9h à 20h (du Lundi au Samedi)</div>			
 				</div>
 				<div className={s.section}>
-					<h2>Tarif des consultations</h2>
+					{React.createElement(props.subTitles, {}, 'Tarif des consultations')}
 					<FontIcon value='info' />
 					<div>
 						50€ la séance <br/>
@@ -45,6 +45,12 @@ export default props => (
 				</div>
 			</div>
 		</div>
-
 	</div>
 );
+
+Contact.defaultProps = { 
+	title: 'h1', 
+	subTitles: 'h2' 
+};
+
+export default Contact;
