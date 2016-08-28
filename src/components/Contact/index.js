@@ -5,21 +5,22 @@ import Helmet from "react-helmet";
 export default props => (
 	<div>
 		<Helmet title="Contact" />
-		<h1>Addresse du cabinet</h1>
+		<h1>Contactez-moi</h1>
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
 				<div className={s.section}>
+					<h2>Adresse du cabinet</h2>
 					<address>
-						4 avenue des capitouls
+						4 avenue des capitouls<br/>
 						31880 La Salvetat Saint Gilles
 					</address>			
 				</div>
 				<div className={s.section}>
-					<strong>Téléphone</strong>
+					<h2>Téléphone</h2>
 					<div>06 33 06 57 38</div>			
 				</div>
 				<div className={s.section}>
-					<strong>Email</strong>
+					<h2>Email</h2>
 					<div>
 						<a 
 							href="mailto:audrey.barthelemy@outlook.com?subject=Demande de rendez-vous">
@@ -28,11 +29,11 @@ export default props => (
 					</div>			
 				</div>	
 				<div className={s.section}>
-					<strong>Horaires d'ouverture</strong>
+					<h2>Horaires d'ouverture</h2>
 					<div>De 9h à 20h (du Lundi au Samedi)</div>			
 				</div>
 				<div className={s.section}>
-					<strong>Tarif des consultations</strong>
+					<h2>Tarif des consultations</h2>
 					<div>
 						50€ la séance <br/>
 						Une séance dure 45 minutes
