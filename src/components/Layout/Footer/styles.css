@@ -5,4 +5,5 @@
 	background-color: #FFF;
 	color: #999;
 	flex-shrink: 0;
+	-webkit-transform: translateZ(0);
 }

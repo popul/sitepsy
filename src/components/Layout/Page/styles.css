@@ -29,7 +29,6 @@
 	padding-bottom: 3em;
 	word-break: break-word;
 	flex: 1 0 auto;
-	height: calc(100% + 1px);
 	-webkit-transform: translateZ(0);
 }
 
