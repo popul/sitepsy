@@ -25,8 +25,15 @@ const Wrapper = (Content, meta) => props => {
 	</div>
 }
 
+const scrollTop = () => {
+	if (typeof document !== 'undefined') {
+		const panel = document.querySelector('[data-react-toolbox=panel]');
+		panel.scrollTop = 0;
+	}
+}
+
 export default (
-  <Route path="/" component={Root}>
+  <Route path="/" component={Root} onChange={scrollTop}>
   	<IndexRoute component={Welcome} />
   	<Route component={Page}>
 		<Route path="contact" component={Contact} />
