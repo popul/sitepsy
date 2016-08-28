@@ -76,7 +76,7 @@ export default class RootLayout extends React.Component {
 							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"}
 						]}
 						meta={[
-							{"name": "description", "content": "Audrey Barthélémy Psychologue Enfant Adolescent Parent Décrochage scolaire Agressivité Haut potentiel Autisme Enurésie Socialisation Toulouse La Salvetat Saint Gilles"},
+							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} />
