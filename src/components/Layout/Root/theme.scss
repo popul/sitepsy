@@ -16,6 +16,7 @@
 }
 
 .panel {
-	justify-content: flex-start !important;
+	overflow:scroll;
 	-webkit-overflow-scrolling: touch !important;
+	justify-content: flex-start !important;
 }

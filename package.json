@@ -4,7 +4,7 @@
   "description": "Site Psychologue Audrey Barthélémy",
   "scripts": {
     "build": "rimraf dist && NODE_ENV=production webpack --progress --colors -p",
-    "dev": "webpack-dev-server --progress --colors --hot",
+    "dev": "webpack-dev-server --progress --colors --hot --host 0.0.0.0",
     "start": "npm run dev"
   },
   "author": "",
