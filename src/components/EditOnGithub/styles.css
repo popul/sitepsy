@@ -1,0 +1,15 @@
+@import "../../../assets/styles/common.css";
+
+.link {
+	display: none;
+	@media (--break-lg) {
+		display: inline;
+	}
+	position: absolute;
+	right: 3em;
+	top: 4em;
+	text-decoration: none !important;
+	&:hover {
+		font-weight: bold;
+	}
+}

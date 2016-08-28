@@ -8,13 +8,13 @@ import QuiSuisJe, {meta as metaQuiSuisJe} from './components/Pages/quisuisje.md'
 import Consultations, {meta as metaConsultations} from './components/Pages/consultations.md';
 import Approches, {meta as metaApproches} from './components/Pages/approches.md';
 import Articles from './components/Pages/Articles';
-import Illusion, {meta as metaIllusion} from './components/Articles/illusion-incompetence.md';
-import JeuxJouets, {meta as metaJeuxJouets} from './components/Articles/jeux-jouets-bebe.md';
-import ClochesPaques, {meta as metaClochesPaques} from './components/Articles/cloches-paques.md';
-import BebeNon, {meta as metaBebeNon} from './components/Articles/bebe-me-dit-toujours-non.md';
-import MotriciteBebe, {meta as metaMotriciteBebe} from './components/Articles/favoriser-developpement-psychomoteur-bebe.md';
-import MeditationPrenatale, {meta as metaMeditationPrenatale} from './components/Articles/meditation-prenatale-influence-bien-etre-bebe.md';
-import BebeEmotionMaternelle, {meta as metaBebeEmotionMaternelle} from './components/Articles/bebe-in-utero-emotion-maternelle.md';
+import Illusion, {meta as metaIllusion} from './components/Pages/Articles/illusion-incompetence.md';
+import JeuxJouets, {meta as metaJeuxJouets} from './components/Pages/Articles/jeux-jouets-bebe.md';
+import ClochesPaques, {meta as metaClochesPaques} from './components/Pages/Articles/cloches-paques.md';
+import BebeNon, {meta as metaBebeNon} from './components/Pages/Articles/bebe-me-dit-toujours-non.md';
+import MotriciteBebe, {meta as metaMotriciteBebe} from './components/Pages/Articles/favoriser-developpement-psychomoteur-bebe.md';
+import MeditationPrenatale, {meta as metaMeditationPrenatale} from './components/Pages/Articles/meditation-prenatale-influence-bien-etre-bebe.md';
+import BebeEmotionMaternelle, {meta as metaBebeEmotionMaternelle} from './components/Pages/Articles/bebe-in-utero-emotion-maternelle.md';
 import Referencement, {meta as metaReferencement} from './components/Pages/referencement.md';
 import Helmet from 'react-helmet';
 
