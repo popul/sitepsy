@@ -14,7 +14,7 @@ require('../../../../assets/images/meditation-prenatale.jpg');
 require('../../../../assets/images/bebe-in-utero-emotion-maternelle.jpg');
 
 export default props => (
-	<div>
+	<div className={s.content}>
 		<Helmet title="Articles" />
 		<h1>Articles</h1>
 		<div className={s.container}>

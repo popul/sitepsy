@@ -1,15 +1,14 @@
 @import "../../../../assets/styles/common.css";
 
 .content {
-	padding: 2em 2em 2em 1em;
-	background-color: #FFF;
-	color: #6d6d6d;
-	text-align: justify;
 	h1, h2, h3, h4 {
 		text-align: left;
+		font-family: 'Roboto';
+		line-height: 1.2em;
 	}
 	h1 {
-		font-weight: normal;
+		font-weight: 500;
+		font-size: 1.8em;
 		margin-top: 0.5em;
 	}
 	h2 {
@@ -26,17 +25,20 @@
 		text-decoration: underline;
 	}
 
-	padding-bottom: 3em;
+	background-color: #FFF;
+	
+	color: #6d6d6d;
+	font-family: 'Lora';
+	font-size: 20px;
+	line-height: 1.58em;
 	word-break: break-word;
+
+	margin: 0 auto;
+	padding-bottom: 3em;
 	flex: 1 0 auto;
 	-webkit-transform: translateZ(0);
-}
-
-@media (--break-lg) {
-	.content {
-		padding-left: 3em;
-		padding-right: 3em;
-	}
+	width: 90%;
+	max-width: 700px;
 }
 
 .content h1, .content h2 {

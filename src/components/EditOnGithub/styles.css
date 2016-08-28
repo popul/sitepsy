@@ -1,15 +1,16 @@
 @import "../../../assets/styles/common.css";
 
 .link {
+	font-family: 'Roboto';
 	display: none;
 	@media (--break-lg) {
 		display: inline;
 	}
 	position: absolute;
-	right: 3em;
-	top: 4em;
+	right: 0;
+	top: 1.5em;
 	text-decoration: none !important;
 	&:hover {
-		font-weight: bold;
+		text-decoration: underline !important;
 	}
 }

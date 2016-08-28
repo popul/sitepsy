@@ -35,6 +35,7 @@ const scrollTop = () => {
 export default (
   <Route path="/" component={Root} onChange={scrollTop}>
   	<IndexRoute component={Welcome} />
+	<Route path="articles" component={Articles} />
   	<Route component={Page}>
 		<Route path="contact" component={Contact} />
 		<Route path="quisuisje" component={Wrapper(QuiSuisJe, metaQuiSuisJe)} />
@@ -49,7 +50,6 @@ export default (
 			<Route path="favoriser-developpement-psychomoteur-bebe" component={Wrapper(MotriciteBebe, metaMotriciteBebe)} />
 			<Route path="meditation-prenatale-influence-bien-etre-bebe" component={Wrapper(MeditationPrenatale, metaMeditationPrenatale)} />
 			<Route path="bebe-in-utero-emotion-maternelle" component={Wrapper(BebeEmotionMaternelle, metaBebeEmotionMaternelle)} />
-			<IndexRoute component={Articles} />
   		</Route>
   	</Route>
   </Route>

@@ -1,3 +1,19 @@
+.content {
+	margin: 0 auto;
+	padding-bottom: 3em;
+	flex: 1 0 auto;
+	-webkit-transform: translateZ(0);
+	width: 90%;
+	max-width: 1150px;
+
+	color: #6d6d6d;
+
+	h1 {
+		color: #000;
+		margin-left: 0;
+	}
+}
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
