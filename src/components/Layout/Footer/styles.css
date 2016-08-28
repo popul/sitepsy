@@ -1,3 +1,8 @@
+.container {
+	background-color: #FFF;
+	width: 100%;
+}
+
 .content {
 	text-align: center;
 	font-size: 1em;

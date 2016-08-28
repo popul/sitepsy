@@ -10,7 +10,10 @@
 
 	h1 {
 		color: #000;
-		margin-left: 0;
+		margin-left: 0.2em;
+		font-weight: 500;
+		font-size: 36px;
+		margin-top: 1.7em;
 	}
 }
 

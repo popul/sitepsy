@@ -1,8 +1,8 @@
 ---
-title: Comment favoriser le développement psychomteur de mon bébé ?
+title: Comment favoriser le développement psychomoteur de mon bébé ?
 ---
 
-# Comment favoriser le développement psychomteur de mon bébé ?
+# Comment favoriser le développement psychomoteur de mon bébé ?
 
 Parce qu’apprendre à marcher est une grande étape dans la vie de bébé, vous êtes attentif à ce que tout se passe bien du point de vue de son développement psychomoteur. Vous vous demandez peut-être quelles sont les étapes par lesquelles il doit passer avant d’arriver à se déplacer debout et quelles sont les bonnes pratiques que l’on doit adopter pour favoriser le bon développement de bébé.
 

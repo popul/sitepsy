@@ -21,6 +21,10 @@
 		font-size: 1.1em;
 	}
 
+	strong {
+		font-weight: bold;
+	}
+
 	a:hover {
 		text-decoration: underline;
 	}
@@ -34,6 +38,7 @@
 	word-break: break-word;
 
 	margin: 0 auto;
+	margin-top: 2em;
 	padding-bottom: 3em;
 	flex: 1 0 auto;
 	-webkit-transform: translateZ(0);
