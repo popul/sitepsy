@@ -16,7 +16,7 @@ S'il est important de comprendre ce qu'il s'est passé, il est important de comp
 Comprendre le présent et ce qui se joue dans les interactions quotidiennes permet d'agir sur l'environnement. Des aménagements dans l'environnement immédiat, l'utilisation d'outils simples (comme le réveille-matin quotidien qui nous rappelle l'heure à laquelle nous devons nous préparer) dans les contextes problématiques, l'instauration progressive de routines, permettent la régulation des difficultés et entrainent un changement progressif des conduites au fur et à mesure que l'on s'approprie les outils.
 
 Mon accompagnement comprend trois volets, l'évaluation, l'engagement dans un travail psychothérapeutique adapté et le suivi des changements pas à pas.
-En prenant un rendez-vous, vous entrez dans une dynamique de changement. Mon rôle est de vous aider à ouvrir de nouveaux espaces de pensées et à construire ensemble de nouvelles alternatives dans votre quotidien qui vous permettront d'aller mieux. 
+En prenant un rendez-vous, vous entrez dans une dynamique de changement et de développement. Mon rôle est de vous aider à ouvrir de nouveaux espaces de pensées et à construire ensemble de nouvelles alternatives dans votre quotidien qui vous permettront d'aller mieux. 
 
 # Mes expériences cliniques en psychothérapie et en éducation
 
