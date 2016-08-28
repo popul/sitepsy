@@ -27,7 +27,10 @@ const data = {
 };
 
 module.exports = {
-  entry: './src/entry.js',
+  entry: [
+    'file?name=robots.txt!./robots.txt',
+    './src/entry.js'
+  ],
 
   output: {
     filename: 'bundle.js',
