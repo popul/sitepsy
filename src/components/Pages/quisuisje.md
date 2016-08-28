@@ -2,7 +2,7 @@
 title: Qui suis-je ?
 ---
 
-# Psychiologue du développement spécialiste de l'enfant, de l'adolescent et de la parentalité
+# Psychologue du développement spécialiste de l'enfant, de l'adolescent et de la parentalité
 
 J'ai suivi un cursus scientifique et pratique en psychologie du développement.
 La psychologie du développement reconnait l'importance des facteurs internes, biologiques, génétiques, et externes, environnementaux, sociaux et culturels, comme organisateurs du psychisme humain. 
