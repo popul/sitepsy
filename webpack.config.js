@@ -29,6 +29,7 @@ const data = {
 module.exports = {
   entry: [
     'file?name=robots.txt!./robots.txt',
+    'file?name=CNAME!./CNAME',
     './src/entry.js'
   ],
 
