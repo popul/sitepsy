@@ -35,10 +35,10 @@ export default class Menu extends React.Component {
 						<Link to="/quisuisje/" className={this.getLinkClass("/quisuisje", this.props.path)}>Qui suis-je ?</Link>
 						<Link to="/consultations/" className={this.getLinkClass("/consultations", this.props.path)}>Consultations</Link>
 						<Link to="/articles/" className={this.getLinkClass("/articles", this.props.path)}>Articles</Link>
-						<div className={s.contact}>
+						<Link to="/contact/" className={theme.contact}>
 							<FontIcon value="phone" />
-							<Link to="/contact/">Contact</Link>
-						</div>
+							Contact
+						</Link>
 					</Navigation>
 				</AppBar>		
 			</div>

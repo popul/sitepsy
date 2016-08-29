@@ -44,20 +44,3 @@
 		padding-left: 2.5em;
 	}
 }
-
-.contact {
-	background-color: $secondary;
-	height: 100%;
-	color: $primary;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-left: 1em;
-	padding-left: 1em;
-	a {
-		color: $primary !important;
-		&:hover:before {
-			display: none;
-		}
-	}
-}

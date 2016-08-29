@@ -50,5 +50,23 @@
 			height: 8px;
 			opacity: 1;
 		}
+
+		&.contact {
+			background-color: #42c3cf;
+			height: 100%;
+			color: #FFF;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 1em;
+			padding-left: 1em;
+
+			:global(.material-icons) {
+				margin-right: 0.5em;
+			}
+			&:hover:before {
+				display: none;
+			}
+		}
 	}	
 }
