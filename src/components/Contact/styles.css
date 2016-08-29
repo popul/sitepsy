@@ -17,6 +17,7 @@
 	a {
 		color: #6d6d6d !important;
 	}
+	word-wrap: break-word;
 }
 
 .section {
