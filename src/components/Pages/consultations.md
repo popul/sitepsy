@@ -28,13 +28,13 @@ Un dysfonctionnement neurologique ou génétique peut affecter de différentes m
 La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresse psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
 	
 Les troubles fréquemment rencontrés chez l'enfant sont : 
-	- L'énurésie ou l'encoprésie persistants après le cycle maternelle
-	- La persistance de difficulté dans les temps de séparation
-	- Des troubles du comportement alimentaire
-	- Des difficultés d'attention et de concentration
-	- L'hyperactivité
-	- Une perte d'intérêt pour les apprentissages
-	- Des difficultés d'intégrations sociales dans les relations aux pairs ou dans la relation aux adultes
-	- Une baisse de l'estime de soi ou au contraire une survalorisation de soi
-	- Troubles Envahissants du Développement (TED)
-	- Troubles Spécifiques des Apprentissages (TSA) :   Dyslexie, Dyscalculie et tous les autres troubles de la galaxie Dys
+- L'énurésie ou l'encoprésie persistants après le cycle maternelle
+- La persistance de difficulté dans les temps de séparation
+- Des troubles du comportement alimentaire
+- Des difficultés d'attention et de concentration
+- L'hyperactivité
+- Une perte d'intérêt pour les apprentissages
+- Des difficultés d'intégrations sociales dans les relations aux pairs ou dans la relation aux adultes
+- Une baisse de l'estime de soi ou au contraire une survalorisation de soi
+- Troubles Envahissants du Développement (TED)
+- Troubles Spécifiques des Apprentissages (TSA) :  Dyslexie, Dyscalculie et tous les autres troubles de la galaxie Dys
