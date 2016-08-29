@@ -78,11 +78,11 @@ export default class RootLayout extends React.Component {
 					<Helmet 
 						title="A. Barthélémy Psychologue Toulouse La Salvetat Enfants Adolescents Parents"
 						link={[
-							{"rel": "icon", "type": "image/png", href:"/assets/images/icons/favicon.png"},
+							{"rel": "icon", "type": "image/png", href:"/assets/images/favicon.png"},
 							{"rel": "stylesheet", "type": "text/css", "href": "/styles.css"},
 							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"},
 							{"rel": "manifest", href: "/manifest.json"},
-							{"rel": "apple-touch-icon", href: "/assets/images/icons/Logo-152.png"}
+							{"rel": "apple-touch-icon", href: "/assets/images/Logo-152.png"}
 						]}
 						meta={[
 							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
@@ -90,7 +90,7 @@ export default class RootLayout extends React.Component {
 							{"name": "apple-mobile-web-app-capable", content:"yes"},
 							{"name": "apple-mobile-web-app-status-bar-style", content:"white"},
 							{"name": "apple-mobile-web-app-title", content:"Psy A.Barthélémy"},
-							{"name": "msapplication-TileImage", content: "/assets/images/icons/Logo-144x144.png"},
+							{"name": "msapplication-TileImage", content: "/assets/images/Logo-144x144.png"},
 							{"name": "msapplication-TileColor", content: "#FFF"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
