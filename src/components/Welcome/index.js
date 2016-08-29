@@ -72,7 +72,7 @@ export default class Welcome extends React.Component {
 							<li>Enfants & Adolescents</li>
 							<li>Femmes enceintes</li>
 							<li>Parents</li>
-							<li>Autisme</li>
+							<li>Autistes</li>
 							<li>Bilans</li>
 						</ul>
 						<div className={s.button}>
