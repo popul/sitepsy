@@ -31,7 +31,7 @@ La survenue d'un événement douloureux,  d'importants changements dans le quoti
 	
 Les troubles fréquemment rencontrés chez l'enfant sont : 
 - L'énurésie ou l'encoprésie persistants après le cycle maternelle
-- La persistance de difficulté dans les temps de séparation
+- La persistance de difficultés dans les temps de séparation
 - Des troubles du comportement alimentaire
 - Des difficultés d'attention et de concentration
 - L'hyperactivité
