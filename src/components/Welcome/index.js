@@ -55,6 +55,7 @@ export default class Welcome extends React.Component {
 	render() {
 		return (
 			<div className={s.content}>
+
 				<div className={s.bgImage}>
 				</div>
 				<header ref="header">

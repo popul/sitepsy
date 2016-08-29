@@ -21,6 +21,7 @@
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.22.0",
     "node-sass": "^3.8.0",
+    "offline-plugin": "^3.4.2",
     "postcss-color-function": "^2.0.1",
     "postcss-font-magician": "^1.4.0",
     "postcss-import": "^8.1.2",

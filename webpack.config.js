@@ -5,6 +5,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var precss       = require('precss');
 var autoprefixer = require('autoprefixer');
 var fontMagician = require('postcss-font-magician');
+var OfflinePlugin = require('offline-plugin');
 var path         = require('path');
 
 const data = {
@@ -66,6 +67,10 @@ module.exports = {
     new StaticSiteGeneratorPlugin('bundle.js', data.routes, data),
     new ExtractTextPlugin("styles.css"),
     new SitemapPlugin('https://www.abarthelemy-psychologue-toulouse.fr', data.routes),
+    new OfflinePlugin({
+      version: Date.now().toString(),
+      updateStrategy: 'all'
+    }),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)

@@ -6,6 +6,7 @@ import { Router, RouterContext, match, browserHistory } from 'react-router';
 import routes from './Routes';
 import ReactGA from 'react-ga';
 import Helmet from 'react-helmet';
+import Offline from 'offline-plugin/runtime';
 
 function logPageView() {
   ReactGA.set({ page: window.location.pathname });
@@ -14,7 +15,8 @@ function logPageView() {
 
 if (typeof document !== 'undefined') {
 	ReactGA.initialize('UA-82152802-1');
-	ReactDOM.render(<Router history={browserHistory} routes={routes} onUpdate={logPageView} />, document.getElementById('app'))
+	ReactDOM.render(<Router history={browserHistory} routes={routes} onUpdate={logPageView} />, document.getElementById('app'));
+	Offline.install();
 }
 
 export default (locals, callback) => {

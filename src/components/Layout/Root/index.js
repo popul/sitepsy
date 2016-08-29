@@ -8,12 +8,12 @@ import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Footer from '../Footer';
 
-require('../../../../assets/images/icons/favicon.png');
-require('../../../../assets/images/icons/Logo-128.png');
-require('../../../../assets/images/icons/Logo-144.png');
-require('../../../../assets/images/icons/Logo-152.png');
-require('../../../../assets/images/icons/Logo-192.png');
-require('../../../../assets/images/icons/Logo-256.png');
+import '../../../../assets/images/icons/favicon.png';
+import '../../../../assets/images/icons/Logo-128.png';
+import '../../../../assets/images/icons/Logo-144.png';
+import '../../../../assets/images/icons/Logo-152.png';
+import '../../../../assets/images/icons/Logo-192.png';
+import '../../../../assets/images/icons/Logo-256.png';
 
 import s from './styles.css';
 import theme from './theme.scss';
