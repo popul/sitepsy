@@ -87,11 +87,14 @@ export default class RootLayout extends React.Component {
 						meta={[
 							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"},
-							{"name": "apple-mobile-web-app-capable", content:"yes"},
+							{"name": "apple-mobile-web-app-capable", content:"no"},
 							{"name": "apple-mobile-web-app-status-bar-style", content:"white"},
 							{"name": "apple-mobile-web-app-title", content:"Psy A.Barthélémy"},
+							{"name": "application-name", content: "Psy A.Barthélémy"},
+							{"name": "msapplication-tooltip", content: "Psy A.Barthélémy"},
+							{"name": "msapplication-starturl", content: "/"},
 							{"name": "msapplication-TileImage", content: "/assets/images/Logo-144x144.png"},
-							{"name": "msapplication-TileColor", content: "#FFF"}
+							{"name": "msapplication-TileColor", content: "#FFFFFF"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
 					{this.props.children}
