@@ -5,6 +5,7 @@
 	-webkit-transform: translateZ(0);
 	width: 90%;
 	max-width: 1150px;
+	overflow-x: hidden;
 
 	color: #6d6d6d;
 

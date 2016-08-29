@@ -7,31 +7,44 @@ import FontIcon from 'react-toolbox/lib/font_icon';
 import s from './styles.css';
 import theme from './theme.scss';
 
-export default props => (
-	<div className='contentMenu'>
-		<AppBar theme={theme}>
-			<IconButton 
-				icon='menu' 
-				onClick={ props.toggleDrawerActive } />
-			<div className={s.logo}>
-				<Link to="/">
-					<span className="secondary-color">Audrey BARTHELEMY</span>
-				</Link>				
+
+export default class Menu extends React.Component {
+	trimEndingSlash(str) {
+		return str.replace(/\/$/, '');
+	}
+
+	getLinkClass(link, currentPath) {
+		currentPath = this.trimEndingSlash(currentPath);
+		const className = (new RegExp(`^${link}\$`)).test(currentPath) ? theme.activeLink : '';
+		return className;			
+	}
+	render() {
+		return (
+			<div className='contentMenu'>
+				<AppBar theme={theme}>
+					<IconButton 
+						icon='menu' 
+						onClick={ this.props.toggleDrawerActive } />
+					<div className={s.logo}>
+						<Link to="/">
+							<span className="secondary-color">Audrey BARTHELEMY</span>
+						</Link>				
+					</div>
+					<Navigation type='horizontal' theme={theme}>
+						<Link to="/" className={this.getLinkClass("", this.props.path)}>Accueil</Link>
+						<Link to="/quisuisje/" className={this.getLinkClass("/quisuisje", this.props.path)}>Qui suis-je ?</Link>
+						<Link to="/consultations/" className={this.getLinkClass("/consultations", this.props.path)}>Consultations</Link>
+						<Link to="/articles/" className={this.getLinkClass("/articles", this.props.path)}>Articles</Link>
+						<div className={s.contact}>
+							<FontIcon value="phone" />
+							<Link to="/contact/">Contact</Link>
+						</div>
+					</Navigation>
+				</AppBar>		
 			</div>
-			<Navigation type='horizontal' theme={theme}>
-				<Link to="/">Accueil</Link>
-				<Link to="/quisuisje/">Qui suis-je ?</Link>
-				<Link to="/consultations/">Consultations</Link>
-				<Link to="/approches/">Approches</Link>
-				<Link to="/articles/">Articles</Link>
-				<div className={s.contact}>
-					<FontIcon value="phone" />
-					<Link to="/contact/">Contact</Link>
-				</div>
-			</Navigation>
-		</AppBar>		
-	</div>
-);
+		);
+	}
+}
 
 /*
 

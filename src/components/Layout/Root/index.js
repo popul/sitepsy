@@ -62,7 +62,6 @@ export default class RootLayout extends React.Component {
 						<IconLink icon="home" to="/" text="Accueil" />
 						<IconLink icon="person_pin" to="/quisuisje" text="Qui suis je ?" />
 						<IconLink icon="mode_edit" to="/consultations" text="Consultations" />
-						<IconLink icon="search" to="/approches" text="Approches" />
 						<IconLink icon="library_books" to="/articles" text="Articles" />
 						<IconLink icon="contact_phone" to="/contact" text="Contact" />
 					</Navigation>
@@ -79,7 +78,7 @@ export default class RootLayout extends React.Component {
 							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"}
 					 	]} />
-					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} />
+					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
 					{this.props.children}
 					<Footer />
 	    		</Panel>

@@ -30,6 +30,11 @@
 		justify-content: center;
 		color: #000;
 		position: relative;
+
+		&.activeLink {
+			color: #42c3cf;
+		}
+
 		&:before {
 			content: '';
 			position: absolute;

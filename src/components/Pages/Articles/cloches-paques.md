@@ -31,6 +31,7 @@ Aussi, celui-ci a réalisé une nouvelle expérience. Il a raconté une nouvelle
 **La plupart des enfants de 4 et 5 ans a refusé de boire l'eau rajeunissante même lorsqu’une récompense leur était promise. La majorité des enfants de 6 ans a refusé en premier lieu et plus de la moitié a accepté après insistance**.
 
 Les enfants se sont donc montrés peu influençables et très résistants aux suggestions de l’adulte.
+
 ## À  4 et 5 ans
 
 Les enfants acceptent que des événements à priori impossibles puissent se produire dans la réalité. Ils croient aux conséquences magiques d’un événement impossible, ce qui explique autant d’émerveillement et d'engouement pour la tradition des cloches de Pâques.

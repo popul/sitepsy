@@ -12,7 +12,6 @@ const data = {
     '/',
     '/quisuisje',
     '/consultations',
-    '/approches',
     '/articles',
     '/contact',
     '/referencement',

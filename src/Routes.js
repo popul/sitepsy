@@ -6,7 +6,6 @@ import Page from './components/Layout/Page';
 import Contact from './components/Contact';
 import QuiSuisJe, {meta as metaQuiSuisJe} from './components/Pages/quisuisje.md';
 import Consultations, {meta as metaConsultations} from './components/Pages/consultations.md';
-import Approches, {meta as metaApproches} from './components/Pages/approches.md';
 import Articles from './components/Pages/Articles';
 import Illusion, {meta as metaIllusion} from './components/Pages/Articles/illusion-incompetence.md';
 import JeuxJouets, {meta as metaJeuxJouets} from './components/Pages/Articles/jeux-jouets-bebe.md';
@@ -40,7 +39,6 @@ export default (
 		<Route path="contact" component={Contact} />
 		<Route path="quisuisje" component={Wrapper(QuiSuisJe, metaQuiSuisJe)} />
 		<Route path="consultations" component={Wrapper(Consultations, metaConsultations)} />
-		<Route path="approches" component={Wrapper(Approches, metaApproches)} />
 		<Route path="referencement" component={Wrapper(Referencement, metaReferencement)} />
   		<Route path="articles">
 			<Route path="illusion-incompetence" component={Wrapper(Illusion, metaIllusion)} />

@@ -45,20 +45,6 @@
 	}
 }
 
-.navigation {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	font-weight: 300;
-	a {
-		display: flex;
-		align-items: center;
-		height: 100%;
-		padding: 0 1em;
-		color: color($primary lightness(30%));
-	}
-}
-
 .contact {
 	background-color: $secondary;
 	height: 100%;
