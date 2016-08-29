@@ -24,7 +24,9 @@ Les consultations s’adressent à la femme enceinte, au couple et plus largemen
 
 Le développement de l'enfant est jalonné par un certain nombre de palliers affectifs, intellectuels, moteurs et biologiques. 
 Le développement peut être entravé à ces différents niveaux par des causes d'origines biologiques, environnementales ou les deux à la fois.
+
 Un dysfonctionnement neurologique ou génétique peut affecter de différentes manières les habiletés langagières, motrices, intellectuelles et sociales (fonctionnement dys, autisme par exemple).
+
 La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresse psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
 	
 Les troubles fréquemment rencontrés chez l'enfant sont : 
