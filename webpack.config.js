@@ -28,6 +28,7 @@ const data = {
 module.exports = {
   entry: [
     'file?name=robots.txt!./robots.txt',
+    'file?name=manifest.json!./manifest.json',
     'file?name=CNAME!./CNAME',
     './src/entry.js'
   ],

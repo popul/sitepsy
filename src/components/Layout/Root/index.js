@@ -8,6 +8,13 @@ import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Footer from '../Footer';
 
+require('../../../../assets/images/icons/favicon.png');
+require('../../../../assets/images/icons/Logo-128.png');
+require('../../../../assets/images/icons/Logo-144.png');
+require('../../../../assets/images/icons/Logo-152.png');
+require('../../../../assets/images/icons/Logo-192.png');
+require('../../../../assets/images/icons/Logo-256.png');
+
 import s from './styles.css';
 import theme from './theme.scss';
 
@@ -71,12 +78,20 @@ export default class RootLayout extends React.Component {
 					<Helmet 
 						title="A. Barthélémy Psychologue Toulouse La Salvetat Enfants Adolescents Parents"
 						link={[
+							{"rel": "icon", "type": "image/png", href:"/assets/images/icons/favicon.png"},
 							{"rel": "stylesheet", "type": "text/css", "href": "/styles.css"},
-							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"}
+							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"},
+							{"rel": "manifest", href: "/manifest.json"},
+							{"rel": "apple-touch-icon", href: "/assets/images/icons/Logo-152.png"}
 						]}
 						meta={[
 							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
-							{"name": "viewport", "content": "width=device-width, user-scalable=no"}
+							{"name": "viewport", "content": "width=device-width, user-scalable=no"},
+							{"name": "apple-mobile-web-app-capable", content:"yes"},
+							{"name": "apple-mobile-web-app-status-bar-style", content:"white"},
+							{"name": "apple-mobile-web-app-title", content:"Psy A.Barthélémy"},
+							{"name": "msapplication-TileImage", content: "/assets/images/icons/Logo-144x144.png"},
+							{"name": "msapplication-TileColor", content: "#FFF"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
 					{this.props.children}

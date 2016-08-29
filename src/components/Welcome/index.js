@@ -95,6 +95,7 @@ export default class Welcome extends React.Component {
 				<section className={s.alternative}>
 					<div className={s.container}>
 						<Contact 
+							redefineTitle={false}
 							title='h2'
 							subTitles='h3'/>
 					</div>

@@ -6,7 +6,7 @@ import s from './styles.css';
 
 const Contact = props => (
 	<div className={s.content}>
-		<Helmet title="Contact" />
+		{props.redefineTitle && <Helmet title="Contact" />}
 		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
@@ -49,6 +49,7 @@ const Contact = props => (
 );
 
 Contact.defaultProps = { 
+	redefineTitle: true,
 	title: 'h1', 
 	subTitles: 'h2' 
 };
