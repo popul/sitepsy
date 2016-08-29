@@ -28,13 +28,16 @@ Le développement peut être entravé à ces différents niveaux par des causes 
 Un dysfonctionnement neurologique ou génétique peut affecter de différentes manières les habiletés langagières, motrices, intellectuelles et sociales (fonctionnement dys, autisme par exemple).
 
 La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresses psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
-	
-Les troubles fréquemment rencontrés chez l'enfant sont : 
+
+** Quand faut-il consulter?**
+
+Les difficultés fréquemment rencontrées chez l'enfant sont : 
 - L'énurésie ou l'encoprésie persistants après le cycle maternelle
-- La persistance de difficultés dans les temps de séparation
-- Des troubles du comportement alimentaire
+- La gestion des temps de séparation
+- Des difficultés avec l'alimentation
+- Des difficultés d'endormissement ou pendant le sommeil
 - Des difficultés d'attention et de concentration
-- L'hyperactivité
+- Hyperactivité
 - Une perte d'intérêt pour les apprentissages
 - Des difficultés d'intégrations sociales dans les relations aux pairs ou dans la relation aux adultes
 - Une baisse de l'estime de soi ou au contraire une survalorisation de soi
