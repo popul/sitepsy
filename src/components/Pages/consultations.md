@@ -8,7 +8,7 @@ La grossesse est une période de vulnérabilité qui implique d'importants boule
 
 **Quand faut-il se faire accompagner?**
 
-La grossesse devient trop difficile à supporter, vous n'arrivez plus à gérer votre quotidien, vous vous sentez incomprise par votre entourage, vous êtes hypersensible, vous n'arrivez plus à prendre des décisions ou à vous organiser, vos émotions vos submergent, vos doutes et vos inquiétudes deviennent envahissantes.
+La grossesse devient trop difficile à supporter, vous n'arrivez plus à gérer votre quotidien, vous vous sentez incomprise par votre entourage, vous êtes hypersensible, vous n'arrivez plus à prendre des décisions ou à vous organiser, vos émotions vos submergent, vos doutes et vos inquiétudes deviennent envahissants.
 
 **Pourquoi se faire accompagner?**
 
