@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route, IndexRoute, Redirect } from 'react-router';
 import Root from './components/Layout/Root';
 import Welcome from './components/Welcome';
 import Page from './components/Layout/Page';
@@ -50,5 +50,6 @@ export default (
 			<Route path="bebe-in-utero-emotion-maternelle" component={Wrapper(BebeEmotionMaternelle, metaBebeEmotionMaternelle)} />
   		</Route>
   	</Route>
+  	<Redirect from="*" to="/" />
   </Route>
 );
