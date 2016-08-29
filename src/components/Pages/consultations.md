@@ -2,7 +2,7 @@
 title: Consultations
 ---
 
-# Femmes enceintes
+# Femme enceinte
 
 La grossesse est une période de vulnérabilité qui implique d'importants bouleversements corporels, physiologiques et identitaires. Il s'agit d'une période idéalisée par notre société dont on dit peu qu'elle peut constituer une véritable épreuve pour la femme enceinte et plus largement la famille quand la santé physique du bébé ou la sienne est en question, quand l'environnement social et professionnel ne permet pas d'instaurer des changements de rythme ou quand des épreuves de vie se produisent à ce moment-là.
 
@@ -27,7 +27,7 @@ Le développement peut être entravé à ces différents niveaux par des causes 
 
 Un dysfonctionnement neurologique ou génétique peut affecter de différentes manières les habiletés langagières, motrices, intellectuelles et sociales (fonctionnement dys, autisme par exemple).
 
-La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresse psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
+La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresses psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
 	
 Les troubles fréquemment rencontrés chez l'enfant sont : 
 - L'énurésie ou l'encoprésie persistants après le cycle maternelle
@@ -40,3 +40,6 @@ Les troubles fréquemment rencontrés chez l'enfant sont :
 - Une baisse de l'estime de soi ou au contraire une survalorisation de soi
 - Troubles Envahissants du Développement (TED)
 - Troubles Spécifiques des Apprentissages (TSA) :  Dyslexie, Dyscalculie et tous les autres troubles de la galaxie Dys
+
+
+
