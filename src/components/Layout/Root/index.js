@@ -92,7 +92,7 @@ export default class RootLayout extends React.Component {
 							{"name": "apple-mobile-web-app-title", content:"Psy A.Barthélémy"},
 							{"name": "application-name", content: "Psy A.Barthélémy"},
 							{"name": "msapplication-tooltip", content: "Psy A.Barthélémy"},
-							{"name": "msapplication-starturl", content: "/"},
+							{"name": "msapplication-starturl", content: "./"},
 							{"name": "msapplication-TileImage", content: "/assets/images/Logo-144.png"},
 							{"name": "msapplication-TileColor", content: "#FFFFFF"}
 					 	]} />
