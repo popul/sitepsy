@@ -93,7 +93,7 @@ export default class RootLayout extends React.Component {
 							{"name": "application-name", content: "Psy A.Barthélémy"},
 							{"name": "msapplication-tooltip", content: "Psy A.Barthélémy"},
 							{"name": "msapplication-starturl", content: "/"},
-							{"name": "msapplication-TileImage", content: "/assets/images/Logo-144x144.png"},
+							{"name": "msapplication-TileImage", content: "/assets/images/Logo-144.png"},
 							{"name": "msapplication-TileColor", content: "#FFFFFF"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
