@@ -13,14 +13,18 @@ import '../../../../assets/images/motricite-bebe.jpg';
 import '../../../../assets/images/meditation-prenatale.jpg';
 import '../../../../assets/images/bebe-in-utero-emotion-maternelle.jpg';
 
+import { getMetaTags } from '../../../util/seo';
+
+const 
+	title = "Articles",
+	description = "Actualité sur l'éducation et le développement de l'enfant, sur la grossesse et la parentalité";
+
 export default props => (
 	<div className={s.content}>
 		<Helmet 
-			title="Articles"
-		    meta={[
-				{"name": "description", "content": "Actualité sur l'éducation et le développement de l'enfant, sur la grossesse et la parentalité"}
-  			]} />			
-		<h1>Articles</h1>
+			title={title}
+		    meta={getMetaTags(title, description)} />			
+		<h1>{title}</h1>
 		<div className={s.container}>
 			<Card
 				title="Illusion d'incompétence à l'école"

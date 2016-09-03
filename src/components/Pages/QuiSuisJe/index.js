@@ -7,14 +7,18 @@ import { List, ListItem, ListSubHeader, ListDivider, ListCheckbox } from 'react-
 import Intro from './intro.md';
 import s from './styles.css';
 
+import { getMetaTags } from '../../../util/seo';
+
+const 
+	title = "Qui suis-je ?",
+	description = "Psychologue clinicienne, enseignante à l'université. Mes diplômes universitaires, mes expériences cliniques, d'enseignement et de recherche.";
+
 export default props => {
 	return (
 		<div className={s.content}>
 			<Helmet 
-				title="Qui suis-je ?"
-				meta={[
-					{"name": "description", "content": "Psychologue clinicienne, enseignante à l'université. Mes diplômes universitaires, mes expériences cliniques, d'enseignement et de recherche."}
-  				]} />
+				title={title}
+			    meta={getMetaTags(title, description)} />			
 			<Intro />
 			<List ripple>
 				<ListItem leftIcon='send'>

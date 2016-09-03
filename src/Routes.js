@@ -35,12 +35,14 @@ import MeditationPrenatale, {meta as metaMeditationPrenatale} from './components
 import BebeEmotionMaternelle, {meta as metaBebeEmotionMaternelle} from './components/Pages/Articles/bebe-in-utero-emotion-maternelle.md';
 import Referencement, {meta as metaReferencement} from './components/Pages/referencement.md';
 
+import { getMetaTags } from './util/seo';
+
 const Wrapper = (Content, meta) => props => {
 	return <div>
 		<Helmet 
 			title={meta.data.title}
 		    meta={[
-				{"name": "description", "content": meta.data.description}
+		    	...getMetaTags(meta.data.title, meta.data.description)
   			]} />
 		<Content />
 	</div>

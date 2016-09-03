@@ -7,6 +7,7 @@ import { Layout, NavDrawer, Panel } from 'react-toolbox/lib/layout';
 import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Footer from '../Footer';
+import { getMetaTags } from '../../../util/seo';
 
 import '../../../../assets/images/icons/favicon.png';
 import '../../../../assets/images/icons/Logo-128.png';
@@ -48,6 +49,9 @@ export default class RootLayout extends React.Component {
 		this.state = {
 			drawerActive: false
 		};
+		this.title = "Psychologue spécialiste de l'enfant, adolescent et parent";
+		this.description = "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider";
+		this.rootUrl = "https://www.abarthelemy-psychologue-toulouse.com"
 	}
 
 	toggleDrawerActive() {
@@ -76,16 +80,17 @@ export default class RootLayout extends React.Component {
 	    		<Panel scrollY={true} theme={theme}>
 					<span dangerouslySetInnerHTML={getJSONLDMarkup()}></span>
 					<Helmet 
-						title="Psychologue spécialiste de l'enfant, adolescent et parent"
+						title={this.title}
 						link={[
 							{"rel": "icon", "type": "image/png", href:"/assets/images/favicon.png"},
 							{"rel": "stylesheet", "type": "text/css", "href": "/styles.css"},
 							{"rel": "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons"},
 							{"rel": "manifest", href: "/manifest.json"},
-							{"rel": "apple-touch-icon", href: "/assets/images/Logo-152.png"}
+							{"rel": "apple-touch-icon", href: "/assets/images/Logo-152.png"},
+							{"rel": "publisher", href:"https://plus.google.com/115772951654603083174"}
 						]}
 						meta={[
-							{"name": "description", "content": "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider"},
+							...getMetaTags(this.title, this.description, `${this.rootUrl}${this.props.location.pathname}`),
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"},
 							{"name": "apple-mobile-web-app-capable", content:"no"},
 							{"name": "apple-mobile-web-app-status-bar-style", content:"white"},

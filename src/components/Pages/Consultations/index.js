@@ -12,15 +12,19 @@ import '../../../../assets/images/femme-enceinte.jpg';
 import '../../../../assets/images/autisme.jpg';
 import '../../../../assets/images/bilan.jpg';
 
+import { getMetaTags } from '../../../util/seo';
+
+const 
+	title = "Consultations",
+	description = "Les différentes populations que j'adresse et les troubles que je traite";
+
 export default props => {
 	return (
 		<div className={s.content}>
 			<Helmet 
-				title="Consultations"
-				meta={[
-					{"name": "description", "content": "Les différentes populations que j'adresse et les troubles que je traite"}
-  				]} />
-			<h1>Consultations</h1>
+				title={title}
+			    meta={getMetaTags(title, description)} />			
+			<h1>{title}</h1>
 			<div className={s.container}>
 				<Card
 					title="Enfants"

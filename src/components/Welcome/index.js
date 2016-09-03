@@ -8,6 +8,8 @@ import Contact from '../Contact';
 
 import s from './styles.css';
 
+import { getMetaTags } from '../../util/seo';
+
 function click() {
 	setTimeout(browserHistory.push.bind(null, '/contact'), 300);
 }
@@ -54,13 +56,15 @@ export default class Welcome extends React.Component {
 	}
 
 	render() {
+		const 
+			title = "Psychologue spécialiste de l'enfant, adolescent et parent",
+			description = "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider";
+
 		return (
 			<div className={s.content}>
 				<Helmet 
-					title="Psychologue spécialiste de l'enfant, adolescent et parent"
-					meta={[
-						{"name": "description", "content": "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider"}
-					]} />
+					title={title} 
+					meta={getMetaTags(title, description)} />
 				<div className={s.bgImage}>
 				</div>
 				<header ref="header">
@@ -90,6 +94,7 @@ export default class Welcome extends React.Component {
 				<section>
 					<div className={s.container}>
 						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat-Saint-Gilles.</p>
+						<p>{description}.</p>
 						<p>Je vous accueille tous les jours. Toutes les consultations sont sur rendez-vous.</p>
 						<p>J'interviens à différents moments de la vie, au tout début, pendant la grossesse ou pour accompagner le désir d'enfants, pendant l'enfance, l'adolescence et auprès des parents pour soutenir l'établissement de relations familiales positives.</p>	
 						<p>Mon approche clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
