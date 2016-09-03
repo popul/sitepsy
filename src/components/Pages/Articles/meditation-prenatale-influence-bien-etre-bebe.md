@@ -1,5 +1,6 @@
 ---
 title: La méditation prénatale influence le bien-être et le tempérament des bébés
+description: Très peu de recherches se sont intéressées au rôle de la méditation des mamans sur la santé des bébés.
 ---
 
 # La méditation prénatale influence le bien-être et le tempérament des bébés

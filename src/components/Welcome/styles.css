@@ -72,6 +72,12 @@ ul.targets {
 
 	li {
 		display: inline-block;
+		a {
+			color: color($primary lightness(90%)) !important;
+			&:hover {
+				text-decoration: underline !important;
+			}
+		}
 		&:after {
 			content: '|';
 			display: inline-block;

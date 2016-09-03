@@ -1,5 +1,6 @@
 ---
 title: Illusion d'incompétence à l'école
+description: Un enfant convaincu de son incapacité à résoudre un problème ou à exécuter une action quelconque peut choisir l’abandon ou l’évitement.
 ---
 
 # Illusion d'incompétence à l'école

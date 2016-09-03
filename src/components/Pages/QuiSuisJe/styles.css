@@ -1,0 +1,10 @@
+@import "../../../../assets/styles/common.css";
+
+.content {
+	.link {
+		&:hover {
+			text-decoration: none;
+			color: $secondary;
+		}
+	}
+}

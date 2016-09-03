@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Button } from 'react-toolbox/lib/button';
 import { browserHistory } from 'react-router';
+import Helmet from 'react-helmet';
 
 import Contact from '../Contact';
 
@@ -55,7 +56,11 @@ export default class Welcome extends React.Component {
 	render() {
 		return (
 			<div className={s.content}>
-
+				<Helmet 
+					title="Psychologue spécialiste de l'enfant, adolescent et parent"
+					meta={[
+						{"name": "description", "content": "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider"}
+					]} />
 				<div className={s.bgImage}>
 				</div>
 				<header ref="header">
@@ -69,11 +74,11 @@ export default class Welcome extends React.Component {
 							</h1>
 						</div>
 						<ul className={s.targets}>
-							<li>Enfants & Adolescents</li>
-							<li>Femmes enceintes</li>
-							<li>Parents</li>
-							<li>Autisme</li>
-							<li>Bilans</li>
+							<li><Link to="/enfant">Enfants</Link> & <Link to="adolescent">Adolescents</Link></li>
+							<li><Link to="/femme-enceinte">Femmes enceintes</Link></li>
+							<li><Link to="/parent">Parents</Link></li>
+							<li><Link to="/autisme">Autisme</Link></li>
+							<li><Link to="/bilan">Bilans</Link></li>
 						</ul>
 						<div className={s.button}>
 							<Button icon='event'raised onClick={click}>

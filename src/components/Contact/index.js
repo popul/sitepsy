@@ -6,7 +6,11 @@ import s from './styles.css';
 
 const Contact = props => (
 	<div className={s.content}>
-		{props.redefineTitle && <Helmet title="Contact" />}
+		{props.redefineTitle && <Helmet 
+			title="Contact"
+			meta={[
+				{"name": "description", "content": "Contactez-moi au 06-33-06-57-38. Adresse du cabinet: 4 avenue des Capitouls 31880 La Salvetat Saint Gilles. Email: audrey.barthelemy@outlook.com"}
+			]} />}
 		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">

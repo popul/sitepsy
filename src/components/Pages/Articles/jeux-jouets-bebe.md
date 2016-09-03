@@ -1,5 +1,6 @@
 ---
 title: Les jeux et les jouets de mon bébé
+description: Quels sont les jeux que l'on peut proposer à bébé, peut-il s'amuser avec des jouets ?
 ---
 
 # Les jeux et les jouets de mon bébé

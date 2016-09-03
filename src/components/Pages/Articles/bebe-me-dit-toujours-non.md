@@ -1,5 +1,6 @@
 ---
 title: Pourquoi mon bébé me dit toujours non ?
+description: Peut-être parce que je lui dis toujours non ?!? A quatre pattes ou droit dans ses baskets, bébé se déplace partout en un temps record.
 ---
 
 # Pourquoi mon bébé me dit toujours non ?

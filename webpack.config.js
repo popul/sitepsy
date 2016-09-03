@@ -8,11 +8,25 @@ var fontMagician = require('postcss-font-magician');
 var OfflinePlugin = require('offline-plugin');
 var path         = require('path');
 
+var production = process.env.NODE_ENV === 'production';
+
 const data = {
   routes: [
     '/',
     '/quisuisje',
+    '/specialiste',
+    '/diplomes',
+    '/experience-clinique',
+    '/experience-enseignement',
+    '/experience-recherche',
+    '/partenaires',
     '/consultations',
+    '/enfant',
+    '/adolescent',
+    '/femme-enceinte',
+    '/parent',
+    '/autisme',
+    '/bilan',
     '/articles',
     '/contact',
     '/referencement',
@@ -68,8 +82,10 @@ module.exports = {
     new ExtractTextPlugin("styles.css"),
     new SitemapPlugin('https://www.abarthelemy-psychologue-toulouse.fr', data.routes),
     new OfflinePlugin({
-      version: Date.now().toString(),
-      updateStrategy: 'all'
+      version: production ? Date.now().toString() : Date.now,
+      updateStrategy: 'all',
+      publicPath: '/',
+      relativePaths: false
     }),
     new webpack.DefinePlugin({
       'process.env': {

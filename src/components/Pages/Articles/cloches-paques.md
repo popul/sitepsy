@@ -1,5 +1,6 @@
 ---
 title: Jusqu'à quel âge mon enfant va-t-il croire aux cloches de pâques ?
+description: Pourquoi les enfants croient aux cloches, lapins ou poules de Pâques qui passent pendant la nuit cacher des œufs dans le jardin?
 ---
 
 # Jusqu'à quel âge mon enfant va-t-il croire aux cloches de pâques ?

@@ -1,5 +1,6 @@
 ---
 title: Les bébés in utéro ressentent les émotions maternelles
+description: Psychologues et psychiatres affirment que l’enfant, avant sa naissance, peut ressentir des émotions et possèdent déjà des sentiments, conscience et souvenirs. 
 ---
 
 # Les bébés in utéro ressentent les émotions maternelles

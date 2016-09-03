@@ -76,7 +76,7 @@ export default class RootLayout extends React.Component {
 	    		<Panel scrollY={true} theme={theme}>
 					<span dangerouslySetInnerHTML={getJSONLDMarkup()}></span>
 					<Helmet 
-						title="A. Barthélémy Psychologue Toulouse La Salvetat Enfants Adolescents Parents"
+						title="Psychologue spécialiste de l'enfant, adolescent et parent"
 						link={[
 							{"rel": "icon", "type": "image/png", href:"/assets/images/favicon.png"},
 							{"rel": "stylesheet", "type": "text/css", "href": "/styles.css"},
@@ -85,7 +85,7 @@ export default class RootLayout extends React.Component {
 							{"rel": "apple-touch-icon", href: "/assets/images/Logo-152.png"}
 						]}
 						meta={[
-							{"name": "description", "content": "Audrey Barthélémy, Psychologue clinicienne, spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité. Région de Toulouse à La Salvetat Saint Gilles"},
+							{"name": "description", "content": "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider"},
 							{"name": "viewport", "content": "width=device-width, user-scalable=no"},
 							{"name": "apple-mobile-web-app-capable", content:"no"},
 							{"name": "apple-mobile-web-app-status-bar-style", content:"white"},

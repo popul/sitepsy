@@ -5,17 +5,21 @@ import Card from '../../Card';
 
 import s from './styles.css';
 
-require('../../../../assets/images/illusion.jpg');
-require('../../../../assets/images/jeux-jouets-bebe.jpg');
-require('../../../../assets/images/cloches-paques.jpg');
-require('../../../../assets/images/bebe-non.jpg');
-require('../../../../assets/images/motricite-bebe.jpg');
-require('../../../../assets/images/meditation-prenatale.jpg');
-require('../../../../assets/images/bebe-in-utero-emotion-maternelle.jpg');
+import '../../../../assets/images/illusion.jpg';
+import '../../../../assets/images/jeux-jouets-bebe.jpg';
+import '../../../../assets/images/cloches-paques.jpg';
+import '../../../../assets/images/bebe-non.jpg';
+import '../../../../assets/images/motricite-bebe.jpg';
+import '../../../../assets/images/meditation-prenatale.jpg';
+import '../../../../assets/images/bebe-in-utero-emotion-maternelle.jpg';
 
 export default props => (
 	<div className={s.content}>
-		<Helmet title="Articles" />
+		<Helmet 
+			title="Articles"
+		    meta={[
+				{"name": "description", "content": "Actualité sur l'éducation et le développement de l'enfant, sur la grossesse et la parentalité"}
+  			]} />			
 		<h1>Articles</h1>
 		<div className={s.container}>
 			<Card
@@ -54,6 +58,5 @@ export default props => (
 				image="/assets/images/bebe-in-utero-emotion-maternelle.jpg"
 				summary="Certains psychologues et psychiatres affirment que l’enfant, avant sa naissance, peut ressentir certaines émotions et possèderait déjà des sentiments, conscience et souvenirs. Tout ce qui peut arriver à ses parents et à lui-même pendant les 9 mois de la grossesse jouerait un rôle très important dans la formation et la structuration de la personnalité." />
 		</div>
-
 	</div>
 );
