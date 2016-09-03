@@ -57,8 +57,8 @@ export default class Welcome extends React.Component {
 
 	render() {
 		const 
-			title = "Psychologue spécialiste de l'enfant, adolescent et parent",
-			description = "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider";
+			title = "Psychologue clinicienne près de Toulouse, La Salvetat",
+			description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED ... Un psychologue proche de Toulouse peut vous aider. Cabinet à la Salvetat";
 
 		return (
 			<div className={s.content}>

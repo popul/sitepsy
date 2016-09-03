@@ -49,8 +49,8 @@ export default class RootLayout extends React.Component {
 		this.state = {
 			drawerActive: false
 		};
-		this.title = "Psychologue spécialiste de l'enfant, adolescent et parent";
-		this.description = "Difficultés d'apprentissage, d'intégration sociale, énurésie, encoprésie, hyperactivité, troubles envahissants du développement, dyslexie. Je peux vous aider";
+		this.title = "Psychologue clinicienne près de Toulouse, La Salvetat",
+		this.description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED ... Un psychologue proche de Toulouse peut vous aider. Cabinet à la Salvetat";
 		this.rootUrl = "https://www.abarthelemy-psychologue-toulouse.com"
 	}
 
