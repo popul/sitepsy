@@ -4,6 +4,7 @@ import { Button } from 'react-toolbox/lib/button';
 import { browserHistory } from 'react-router';
 import Helmet from 'react-helmet';
 
+import ArticleCards from '../Pages/Articles/cards';
 import Contact from '../Contact';
 
 import s from './styles.css';
@@ -75,6 +76,10 @@ export default class Welcome extends React.Component {
 								{' '}
 								<span className="hidden-sm-down m-l-1"></span>
 								Psychothérapeute
+								<br />
+								<span style={{fontSize: '0.8em'}}>
+									proche de Toulouse								
+								</span>
 							</h1>
 						</div>
 						<ul className={s.targets}>
@@ -91,24 +96,34 @@ export default class Welcome extends React.Component {
 						</div>
 					</div>
 				</header>
+
 				<section>
 					<div className={s.container}>
+						<h2>Audrey Barthélémy, Psychologue clinicienne à proximité de Toulouse</h2>
 						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat-Saint-Gilles.</p>
 						<p>Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Je suis psychologue, je peux vous aider. Mon cabinet est proche de Toulouse, à la Salvetat Saint Gilles.</p>
 						<p>Psychologue clinicienne, je vous accueille tous les jours. Toutes les consultations sont sur rendez-vous.</p>
 						<p>J'interviens à différents moments de la vie, au tout début, pendant la grossesse ou pour accompagner le désir d'enfants, pendant l'enfance, l'adolescence et auprès des parents pour soutenir l'établissement de relations familiales positives.</p>	
 						<p>Mon approche clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
-						<p>Je propose un premier rendez-vous d'environ 1 heure afin de faire connaissance et de comprendre  votre problématique.</p>
+						<p>Je propose un premier rendez-vous d'environ 1 heure, dans mon cabinet, à proximité de Toulouse, afin de faire connaissance et de comprendre  votre problématique.</p>
 						<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 mn), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 min), des séances enfants-parents ou la réalisation d'un bilan sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
 					</div>
 				</section>
 				
+
 				<section className={s.alternative}>
 					<div className={s.container}>
 						<Contact 
 							redefineTitle={false}
 							title='h2'
 							subTitles='h3'/>
+					</div>
+				</section>
+
+				<section>
+					<div className={s.containerWide}>
+						<h2>Articles sur la psychologie et le développement de l'enfant</h2>
+						<ArticleCards />
 					</div>
 				</section>
 			</div>

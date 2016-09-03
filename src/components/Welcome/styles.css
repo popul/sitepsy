@@ -27,10 +27,19 @@
 			font-weight: bold;
 		}
 
-		.container {
+		.container, .containerWide {
 			width: 90%;
 			max-width: 700px;
 			margin: 0 auto;
+			h2 {
+				color: #333;
+				line-height: 1.4em;
+				margin-left: 0;
+			}
+		}
+
+		.containerWide {
+			max-width: 1150px;
 		}
 	}
 }
@@ -113,6 +122,9 @@ ul.targets {
 section.alternative {
 	background-color: $secondary;
 	color: white;
+	h2 {
+		color: white !important;
+	}
 	a {
 		color: white !important;
 	}
