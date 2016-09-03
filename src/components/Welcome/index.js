@@ -58,7 +58,7 @@ export default class Welcome extends React.Component {
 	render() {
 		const 
 			title = "Psychologue clinicienne près de Toulouse, La Salvetat",
-			description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED ... Un psychologue proche de Toulouse peut vous aider. Cabinet à la Salvetat";
+			description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Audrey Barthelemy, je suis psychologue, proche de Toulouse (Salvetat).";
 
 		return (
 			<div className={s.content}>
@@ -78,11 +78,11 @@ export default class Welcome extends React.Component {
 							</h1>
 						</div>
 						<ul className={s.targets}>
-							<li><Link to="/enfant">Enfants</Link> & <Link to="adolescent">Adolescents</Link></li>
-							<li><Link to="/femme-enceinte">Femmes enceintes</Link></li>
-							<li><Link to="/parent">Parents</Link></li>
-							<li><Link to="/autisme">Autisme</Link></li>
-							<li><Link to="/bilan">Bilans</Link></li>
+							<li><h2><Link to="/enfant">Enfants</Link> & <Link to="adolescent">Adolescents</Link></h2></li>
+							<li><h2><Link to="/femme-enceinte">Femmes enceintes</Link></h2></li>
+							<li><h2><Link to="/parent">Parents</Link></h2></li>
+							<li><h2><Link to="/autisme">Autisme</Link></h2></li>
+							<li><h2><Link to="/bilan">Bilans</Link></h2></li>
 						</ul>
 						<div className={s.button}>
 							<Button icon='event'raised onClick={click}>
@@ -94,8 +94,8 @@ export default class Welcome extends React.Component {
 				<section>
 					<div className={s.container}>
 						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat-Saint-Gilles.</p>
-						<p>{description}.</p>
-						<p>Je vous accueille tous les jours. Toutes les consultations sont sur rendez-vous.</p>
+						<p>Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Je suis psychologue, je peux vous aider. Mon cabinet est proche de Toulouse, à la Salvetat Saint Gilles.</p>
+						<p>Psychologue clinicienne, je vous accueille tous les jours. Toutes les consultations sont sur rendez-vous.</p>
 						<p>J'interviens à différents moments de la vie, au tout début, pendant la grossesse ou pour accompagner le désir d'enfants, pendant l'enfance, l'adolescence et auprès des parents pour soutenir l'établissement de relations familiales positives.</p>	
 						<p>Mon approche clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
 						<p>Je propose un premier rendez-vous d'environ 1 heure afin de faire connaissance et de comprendre  votre problématique.</p>

@@ -27,15 +27,18 @@
 }
 
 .logo {
-	padding-left: 1em;
-	padding-right: 1em;
 	flex: 1;
-	height: 100%;
 	display: flex;
 	align-items: center;
-	font-size: 1.2em;
-	a {
-		color: color($primary lightness(30%));		
+	h1 {
+		margin: 0;
+		height: 100%;
+		font-size: 1.2em;
+		font-weight: normal;
+		a {
+			padding-right: 1em;
+			color: color($primary lightness(30%));		
+		}		
 	}
 }
 

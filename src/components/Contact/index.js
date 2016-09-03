@@ -14,6 +14,7 @@ const Contact = props => (
 		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
+				<h4>Psychologue clinicienne</h4>
 				<div className={s.section}>
 					<FontIcon value='person_pin' />
 					<address>

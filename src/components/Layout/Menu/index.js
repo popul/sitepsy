@@ -26,9 +26,11 @@ export default class Menu extends React.Component {
 						icon='menu' 
 						onClick={ this.props.toggleDrawerActive } />
 					<div className={s.logo}>
-						<Link to="/">
-							<span className="secondary-color">Audrey BARTHELEMY</span>
-						</Link>				
+						<h1>
+							<Link to="/">
+								<span className="secondary-color">Audrey BARTHELEMY</span>
+							</Link>											
+						</h1>
 					</div>
 					<Navigation type='horizontal' theme={theme}>
 						<Link to="/" className={this.getLinkClass("", this.props.path)}>Accueil</Link>

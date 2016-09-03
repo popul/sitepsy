@@ -1,3 +1,5 @@
+$icon-color: #999;
+
 :global(.resp-sharing-button__link),
 :global(.resp-sharing-button__icon) {
   display: inline-block
@@ -38,80 +40,24 @@
   stroke: none
 }
 
-:global(.resp-sharing-button--twitter) {
-  background-color: #55acee
-}
-
-:global(.resp-sharing-button--twitter:hover) {
-  background-color: #2795e9
-}
-
 :global(.resp-sharing-button--pinterest) {
-  background-color: #bd081c
+  background-color: $icon-color;
 }
 
 :global(.resp-sharing-button--pinterest:hover) {
   background-color: #8c0615
 }
 
-:global(.resp-sharing-button--facebook) {
-  background-color: #3b5998
-}
-
-:global(.resp-sharing-button--facebook:hover) {
-  background-color: #2d4373
-}
-
-:global(.resp-sharing-button--tumblr) {
-  background-color: #35465C
-}
-
-:global(.resp-sharing-button--tumblr:hover) {
-  background-color: #222d3c
-}
-
-:global(.resp-sharing-button--reddit) {
-  background-color: #5f99cf
-}
-
-:global(.resp-sharing-button--reddit:hover) {
-  background-color: #3a80c1
-}
-
-:global(.resp-sharing-button--google) {
-  background-color: #dd4b39
-}
-
-:global(.resp-sharing-button--google:hover) {
-  background-color: #c23321
-}
-
 :global(.resp-sharing-button--linkedin) {
-  background-color: #0077b5
+  background-color: $icon-color;
 }
 
 :global(.resp-sharing-button--linkedin:hover) {
   background-color: #046293
 }
 
-:global(.resp-sharing-button--email) {
-  background-color: #777
-}
-
-:global(.resp-sharing-button--email:hover) {
-  background-color: #5e5e5e
-}
-
-:global(.resp-sharing-button--xing) {
-  background-color: #1a7576
-}
-
-:global(.resp-sharing-button--xing:hover) {
-  background-color: #114c4c
-}
-
 :global(.resp-sharing-button--whatsapp) {
-  background-color: #25D366
+  background-color: $icon-color;
 }
 
 :global(.resp-sharing-button--whatsapp:hover) {
@@ -119,8 +65,8 @@
 }
 
 :global(.resp-sharing-button--facebook) {
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: $icon-color;
+  border-color: $icon-color;
 }
 
 :global(.resp-sharing-button--facebook:hover),
@@ -130,8 +76,8 @@
 }
 
 :global(.resp-sharing-button--twitter) {
-  background-color: #55acee;
-  border-color: #55acee;
+  background-color: $icon-color;
+  border-color: $icon-color;
 }
 
 :global(.resp-sharing-button--twitter:hover),
@@ -141,8 +87,8 @@
 }
 
 :global(.resp-sharing-button--google) {
-  background-color: #dd4b39;
-  border-color: #dd4b39;
+  background-color: $icon-color;
+  border-color: $icon-color;
 }
 
 :global(.resp-sharing-button--google:hover),
@@ -152,8 +98,8 @@
 }
 
 :global(.resp-sharing-button--tumblr) {
-  background-color: #35465C;
-  border-color: #35465C;
+  background-color: $icon-color;
+  border-color: $icon-color;
 }
 
 :global(.resp-sharing-button--tumblr:hover),
@@ -163,8 +109,8 @@
 }
 
 :global(.resp-sharing-button--email) {
-  background-color: #777777;
-  border-color: #777777;
+  background-color: $icon-color;
+  border-color: $icon-color;
 }
 
 :global(.resp-sharing-button--email:hover),
