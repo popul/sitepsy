@@ -81,12 +81,14 @@ module.exports = {
     new StaticSiteGeneratorPlugin('bundle.js', data.routes, data),
     new ExtractTextPlugin("styles.css"),
     new SitemapPlugin('https://www.abarthelemy-psychologue-toulouse.fr', data.routes),
+    /*
     new OfflinePlugin({
       version: production ? Date.now().toString() : Date.now,
       updateStrategy: 'all',
       publicPath: '/',
       relativePaths: false
     }),
+    */
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
