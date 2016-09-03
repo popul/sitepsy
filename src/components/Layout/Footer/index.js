@@ -2,6 +2,9 @@ import React from 'react';
 
 import s from './styles.css';
 
+const url = "https://www.abarthelemy-psychologue-toulouse.fr",
+	FBAppId = "1130289380340612"
+
 export default props => (
 	<div className={s.container}>
 		<div className={s.content}>
