@@ -7,14 +7,14 @@ import s from './styles.css';
 const Contact = props => (
 	<div className={s.content}>
 		{props.redefineTitle && <Helmet 
-			title="Contact"
+			title="Contact La Salvetat Saint Gilles"
 			meta={[
 				{"name": "description", "content": "Contactez-moi au 06-33-06-57-38. Adresse du cabinet: 4 avenue des Capitouls 31880 La Salvetat Saint Gilles. Email: audrey.barthelemy@outlook.com"}
 			]} />}
 		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
-				<h4>Psychologue clinicienne à proximité de Toulouse</h4>
+				<h4>Psychologue clinicienne à proximité de Toulouse,<br /> à la Salvetat Saint Gilles</h4>
 				<div className={s.section}>
 					<FontIcon value='person_pin' />
 					<address>
