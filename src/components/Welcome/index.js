@@ -100,13 +100,13 @@ export default class Welcome extends React.Component {
 				<section>
 					<div className={s.container}>
 						<h2>Audrey Barthélémy, Psychologue clinicienne à proximité de Toulouse</h2>
-						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat-Saint-Gilles.</p>
-						<p>Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Je suis psychologue, je peux vous aider. Mon cabinet est proche de Toulouse, à la Salvetat Saint Gilles.</p>
-						<p>Psychologue clinicienne, je vous accueille tous les jours. Toutes les consultations sont sur rendez-vous.</p>
-						<p>J'interviens à différents moments de la vie, au tout début, pendant la grossesse ou pour accompagner le désir d'enfants, pendant l'enfance, l'adolescence et auprès des parents pour soutenir l'établissement de relations familiales positives.</p>	
-						<p>Mon approche clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
+						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat Saint Gilles.</p>
+						<p>Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Je suis <Link to="/quisuisje/">psychologue</Link>, je peux vous aider. Mon cabinet est proche de Toulouse, à la Salvetat Saint Gilles.</p>
+						<p><Link to='/quisuisje/'>Psychologue clinicienne</Link>, je vous accueille tous les jours. Toutes les <Link to="/consulations/">consultations</Link> sont sur <Link to="/contact/">rendez-vous</Link>.</p>
+						<p>J'interviens à différents moments de la vie, au tout début, pendant la <Link to="/femme-enceinte">grossesse</Link> ou pour accompagner le désir d'enfants, <Link to="/enfant/">pendant l'enfance</Link>, <Link to="/adolescent/">l'adolescence</Link> et auprès des <Link to="/parent/">parents</Link> pour soutenir l'établissement de relations familiales positives.</p>	
+						<p><Link to="/specialiste">Mon approche</Link> clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
 						<p>Je propose un premier rendez-vous d'environ 1 heure, dans mon cabinet, à proximité de Toulouse, afin de faire connaissance et de comprendre  votre problématique.</p>
-						<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 mn), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 min), des séances enfants-parents ou la réalisation d'un bilan sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
+						<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 mn), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 min), des séances <Link to="/enfant/">enfants</Link>-<Link to="/parent/">parents</Link> ou la réalisation d'un <Link to="/bilan/">bilan</Link> sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
 					</div>
 				</section>
 				
