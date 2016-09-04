@@ -26,9 +26,11 @@ export default (locals, callback) => {
 			const head = Helmet.rewind();
 			let html = `
 			<!DOCTYPE html>
-			<html lang="fr">
+			<html lang="fr-rf">
 				<head>
 					<meta charset="utf-8" />
+					<meta name="robots" content="index, follow" />
+					<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 					${head.title}
 					${head.meta}
 					${head.link}

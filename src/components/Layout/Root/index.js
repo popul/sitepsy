@@ -55,10 +55,11 @@ export default class RootLayout extends React.Component {
 	    			theme={theme}>
 					<Navigation type="vertical">
 						<IconLink icon="home" to="/" text="Accueil" />
-						<IconLink icon="person_pin" to="/quisuisje" text="Qui suis je ?" />
-						<IconLink icon="mode_edit" to="/consultations" text="Consultations" />
-						<IconLink icon="library_books" to="/articles" text="Articles" />
-						<IconLink icon="contact_phone" to="/contact" text="Contact" />
+						<IconLink icon="person_pin" to="/quisuisje/" text="Qui suis je ?" />
+						<IconLink icon="mode_edit" to="/consultations/" text="Consultations" />
+						<IconLink icon="business_center" to="/cabinet/" text="Cabinet" />
+						<IconLink icon="library_books" to="/articles/" text="Articles" />
+						<IconLink icon="contact_phone" to="/contact/" text="Contact" />
 					</Navigation>
 	    		</NavDrawer>
 	    		<Panel scrollY={true} theme={theme}>

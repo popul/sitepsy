@@ -6,6 +6,7 @@ import Root from './components/Layout/Root';
 import Welcome from './components/Welcome';
 import Page from './components/Layout/Page';
 import Contact from './components/Contact';
+import Cabinet from './components/Cabinet';
 
 import QuiSuisJe from './components/Pages/QuiSuisJe';
 import Spécialiste, {meta as metaSpécialiste} from './components/Pages/QuiSuisJe/spécialiste.md';
@@ -60,6 +61,7 @@ export default (
   	<IndexRoute component={Welcome} />
 	<Route path="articles" component={Articles} />
 	<Route path="consultations" component={Consultations} />
+	<Route path="cabinet" component={Cabinet} />
   	<Route component={Page}>
 		<Route path="contact" component={Contact} />
 		<Route path="quisuisje" component={QuiSuisJe} />

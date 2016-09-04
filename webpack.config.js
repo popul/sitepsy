@@ -28,6 +28,7 @@ const data = {
     '/autisme/',
     '/bilan/',
     '/articles/',
+    '/cabinet/',
     '/contact/',
     '/referencement/',
     '/articles/illusion-incompetence/',
@@ -64,6 +65,7 @@ module.exports = {
       { test: /\.md$/, loader: 'babel!reactdown/webpack', exclude: /node_modules/ },
       { test: /\.png|jpg$/, loader: 'file?name=assets/images/[name].[ext]'},
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('css?modules!sass')},
+      { test: /\.css$/, include: path.resolve(__dirname, 'node_modules/react-image-gallery'), loader: ExtractTextPlugin.extract('css')},
       { test: /\.css$/, include: path.resolve(__dirname, 'assets'), loader: ExtractTextPlugin.extract('css!postcss')},
       { test: /\.css$/, include: path.resolve(__dirname, 'src/components'), loader: ExtractTextPlugin.extract('css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss')}
     ]

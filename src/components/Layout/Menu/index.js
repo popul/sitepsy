@@ -36,6 +36,7 @@ export default class Menu extends React.Component {
 						<Link to="/" className={this.getLinkClass("", this.props.path)}>Accueil</Link>
 						<Link to="/quisuisje/" className={this.getLinkClass("/quisuisje", this.props.path)}>Qui suis-je ?</Link>
 						<Link to="/consultations/" className={this.getLinkClass("/consultations", this.props.path)}>Consultations</Link>
+						<Link to="/cabinet/" className={this.getLinkClass("/cabinet", this.props.path)}>Cabinet</Link>
 						<Link to="/articles/" className={this.getLinkClass("/articles", this.props.path)}>Articles</Link>
 						<Link to="/contact/" className={theme.contact}>
 							<FontIcon value="phone" />
