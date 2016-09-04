@@ -19,10 +19,12 @@ const SiteCard = props => (
 			image={props.image}
 			theme={theme}
 			/>
-		<CardTitle
-			title={props.title}
-			theme={theme}
-			/>
+		<Link to={props.link}>
+			<CardTitle
+				title={props.title}
+				theme={theme}
+				/>
+		</Link>
 		{props.summary && 
 			<CardText theme={theme}>{props.summary}</CardText> 
 		}

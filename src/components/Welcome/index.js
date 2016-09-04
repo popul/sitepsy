@@ -83,11 +83,11 @@ export default class Welcome extends React.Component {
 							</h1>
 						</div>
 						<ul className={s.targets}>
-							<li><h2><Link to="/enfant">Enfants</Link> & <Link to="adolescent">Adolescents</Link></h2></li>
-							<li><h2><Link to="/femme-enceinte">Femmes enceintes</Link></h2></li>
-							<li><h2><Link to="/parent">Parents</Link></h2></li>
-							<li><h2><Link to="/autisme">Autisme</Link></h2></li>
-							<li><h2><Link to="/bilan">Bilans</Link></h2></li>
+							<li><h2><Link to="/enfant/">Enfants</Link> & <Link to="adolescent">Adolescents</Link></h2></li>
+							<li><h2><Link to="/femme-enceinte/">Femmes enceintes</Link></h2></li>
+							<li><h2><Link to="/parent/">Parents</Link></h2></li>
+							<li><h2><Link to="/autisme/">Autisme</Link></h2></li>
+							<li><h2><Link to="/bilan/">Bilans</Link></h2></li>
 						</ul>
 						<div className={s.button}>
 							<Button icon='event'raised onClick={click}>
