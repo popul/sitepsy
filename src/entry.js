@@ -32,6 +32,16 @@ export default (locals, callback) => {
 					${head.title}
 					${head.meta}
 					${head.link}
+					<script type="application/ld+json">
+					{
+					  "@context": "http://schema.org",
+					  "@type": "Person",
+					  "name": "Audrey Barthélémy",
+					  "jobTitle": "Psychologue",
+					  "telephone": "0633065738",
+					  "url": "https://www.abarthelemy-psychologue-toulouse.fr/"
+					}
+					</script>
 				</head>
 				<body>
 					<div id="app">${body}</div> 
