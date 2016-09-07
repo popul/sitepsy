@@ -14,7 +14,7 @@ const data = {
   routes: [
     '/',
     '/quisuisje/',
-    '/specialiste/',
+    '/psychologue/',
     '/diplomes/',
     '/experience-clinique/',
     '/experience-enseignement/',

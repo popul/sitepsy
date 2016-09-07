@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import Cabinet from './components/Cabinet';
 
 import QuiSuisJe from './components/Pages/QuiSuisJe';
-import Spécialiste, {meta as metaSpécialiste} from './components/Pages/QuiSuisJe/spécialiste.md';
+import Psychologue, {meta as metaPsychologue} from './components/Pages/QuiSuisJe/psychologue.md';
 import Diplomes, {meta as metaDiplomes} from './components/Pages/QuiSuisJe/diplomes.md';
 import ExpClinique, {meta as metaExpClinique} from './components/Pages/QuiSuisJe/experience-clinique.md';
 import ExpEnseignement, {meta as metaExpEnseignement} from './components/Pages/QuiSuisJe/experience-enseignement.md';
@@ -65,7 +65,7 @@ export default (
   	<Route component={Page}>
 		<Route path="contact" component={Contact} />
 		<Route path="quisuisje" component={QuiSuisJe} />
-		<Route path="specialiste" component={Wrapper(Spécialiste, metaSpécialiste)} />
+		<Route path="psychologue" component={Wrapper(Psychologue, metaPsychologue)} />
 		<Route path="diplomes" component={Wrapper(Diplomes, metaDiplomes)} />
 		<Route path="experience-clinique" component={Wrapper(ExpClinique, metaExpClinique)} />
 		<Route path="experience-enseignement" component={Wrapper(ExpEnseignement, metaExpEnseignement)} />

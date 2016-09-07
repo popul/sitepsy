@@ -48,26 +48,3 @@ export default class Menu extends React.Component {
 		);
 	}
 }
-
-/*
-
-
-
-<div className={s.menu}>
-
-	<div className={s.contact}>
-		<Link to="/contact">Contact</Link>
-	</div>
-</div>
- */
-
-/*
-<div className="navigation">
-	<Link to="/">Accueil</Link>
-	<Link to="/quisuisje">Qui suis-je ?</Link>
-	<a href="">Consultations</a>
-	<a href="">Bilans</a>
-	<a href="">Tarifs</a>
-	<a href="">Partenaires</a>
-</div>
- */

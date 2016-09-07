@@ -10,8 +10,8 @@ import s from './styles.css';
 import { getMetaTags } from '../../../util/seo';
 
 const 
-	title = "Qui suis-je ?",
-	description = "Psychologue clinicienne, enseignante à l'université. Mes diplômes universitaires, mes expériences cliniques, d'enseignement et de recherche.";
+	title = "Psychologue du développement",
+	description = "Psychologue clinicienne et du développement, enseignante à l'université. Psychologue pour enfant, pour adolescent et psychologue de la parentalité.";
 
 export default props => {
 	return (
@@ -22,8 +22,13 @@ export default props => {
 			<Intro />
 			<List ripple>
 				<ListItem leftIcon='send'>
-					<Link to="/specialiste" className={s.link}>
-						Spécialiste de l'enfant, de l'adolescent et de la parentalité
+					<Link to="/psychologue" className={s.link}>
+						<div className="hidden-lg-up">
+							Mon approche
+						</div>
+						<div className="hidden-md-down">
+							Psychologue de l'enfant, de l'adolescent et de la parentalité
+						</div>
 					</Link>
 				</ListItem>			
 				<ListItem leftIcon='send'>
@@ -33,17 +38,32 @@ export default props => {
 				</ListItem>
 				<ListItem leftIcon='send'>
 					<Link to="/experience-clinique" className={s.link}>
-						Mes expériences cliniques en psychothérapie et en éducation
+						<div className="hidden-lg-up">
+							Exp. cliniques
+						</div>
+						<div className="hidden-md-down">
+							Mes expériences cliniques en psychothérapie et en éducation
+						</div>
 					</Link>
 				</ListItem>
 				<ListItem leftIcon='send'>
 					<Link to="/experience-enseignement" className={s.link}>
-						Mes principales expériences d'enseignement
+						<div className="hidden-lg-up">
+							Exp. en enseignement
+						</div>
+						<div className="hidden-md-down">
+							Mes principales expériences d'enseignement
+						</div>
 					</Link>
 				</ListItem>
 				<ListItem leftIcon='send'>
 					<Link to="/experience-recherche" className={s.link}>
-						Mes expériences en recherche
+						<div className="hidden-lg-up">
+							Exp. en recherche
+						</div>
+						<div className="hidden-md-down">
+							Mes expériences en recherche
+						</div>
 					</Link>
 				</ListItem>
 			</List>

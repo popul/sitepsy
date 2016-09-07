@@ -1,9 +1,9 @@
 ---
-title: spécialiste de l'enfant
-description: Audrey Barthélémy, spécialiste de l'enfant, de l'adolescent et de la parentalité
+title: psychologue pour enfant
+description: Audrey Barthélémy, psychologue pour enfant, pour adolescent et psychologue de la parentalité
 ---
 
-# Spécialiste de l'enfant, de l'adolescent et de la parentalité
+# Psychologue pour enfant, pour adolescent et psychologue de la parentalité
 
 J'ai suivi un cursus scientifique et pratique en psychologie du développement.
 La psychologie du développement reconnait l'importance des facteurs internes, biologiques, génétiques, et externes, environnementaux, sociaux et culturels, comme organisateurs du psychisme humain. 

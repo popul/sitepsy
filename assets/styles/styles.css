@@ -48,6 +48,12 @@ a:link, a:visited, a:hover {
 	}	
 }
 
+.hidden-md-down {
+	@media (--break-lg-max) {
+		display: none !important;
+	}
+}
+
 .hidden-sm-down {
 	@media (--break-md-max) {
 		display: none !important;
