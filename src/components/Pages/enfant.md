@@ -1,9 +1,9 @@
 ---
 title: Enfant
-description: Enurésie, difficultés d'alimentation, de sommeil, de concentation, hyperactivité. Difficultés d'intégration sociales. Baisse de l'estime de soi. TED, TSA
+description: Psychologue pour enfant, Enurésie, difficultés d'alimentation, de sommeil, de concentation, hyperactivité. Difficultés d'intégration sociales. TSA, TED
 ---
 
-# Enfant
+# Psychologue pour enfant
 
 Le développement de l'enfant est jalonné par un certain nombre de palliers affectifs, intellectuels, moteurs et biologiques. 
 Le développement peut être entravé à ces différents niveaux par des causes d'origines biologiques, environnementales ou les deux à la fois.
@@ -26,3 +26,5 @@ Les difficultés fréquemment rencontrées chez l'enfant sont :
 - Une baisse de l'estime de soi ou au contraire une survalorisation de soi
 - Troubles Envahissants du Développement (TED)
 - Troubles Spécifiques des Apprentissages (TSA) :  Dyslexie, Dyscalculie et tous les autres troubles de la galaxie Dys
+
+Un psychologue pour enfant peut vous aider.
