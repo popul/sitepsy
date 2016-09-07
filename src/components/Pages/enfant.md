@@ -6,11 +6,11 @@ description: Psychologue pour enfant, Enurésie, difficultés d'alimentation, de
 # Psychologue pour enfant
 
 Le développement de l'enfant est jalonné par un certain nombre de palliers affectifs, intellectuels, moteurs et biologiques. 
-Le développement peut être entravé à ces différents niveaux par des causes d'origines biologiques, environnementales ou les deux à la fois.
+Le développement peut être entravé à ces différents niveaux par des causes d'origines biologiques, psychologiques, environnementales ou toutes à la fois.
 
 Un dysfonctionnement neurologique ou génétique peut affecter de différentes manières les habiletés langagières, motrices, intellectuelles et sociales (fonctionnement dys, autisme par exemple).
 
-La survenue d'un événement douloureux,  d'importants changements dans le quotidien,  peuvent entrainer une perte de repères et déclencher des formes de détresses psychiques qui peuvent nécessiter une prise en charge selon leur degré de gravité.
+La survenue d'un événement douloureux,  d'importants changements dans le quotidien peuvent entrainer une perte de repères, la dégradation des relations aux autres et à soi-même, déclencher différentes formes de détresses psychiques nécessitant une prise en charge selon leur degré de gravité.
 
 ## Quand faut-il consulter ?
 
