@@ -13,4 +13,10 @@
 	-webkit-transform: translateZ(0);
 	max-width: 700px;
 	margin: 0 auto;
+
+	h3 {
+		color: #777;
+		font-size: 1em;
+		font-weight: 300;
+	}
 }

@@ -9,7 +9,7 @@ export default props => (
 	<div className={s.container}>
 		<div className={s.content}>
 			<SocialButtons />
-			<p>Audrey Barthélémy - Psychologue Clinicienne - Spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité</p> 
+			<h3>Audrey Barthélémy - Psychologue Clinicienne - Psychologue pour enfant - Spécialiste de l'enfant, de l'adolescent, de la parentalité et de la périnatalité</h3> 
 			<p>A proximité de Toulouse - La Salvetat Saint Gilles</p>
 		</div>
 	</div>
