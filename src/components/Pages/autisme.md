@@ -1,5 +1,6 @@
 ---
 title: Autisme
+description: Psychologue traitant les troubles de l'autisme : Asperger, Syndrome de Rett, de Landau-Kleffner et les TED-NOS
 ---
 
 # Qu'est-ce que l'autisme?
@@ -12,7 +13,7 @@ Les manifestations de l’autisme peuvent varier d’un enfant à l’autre et c
 
 La notion du spectre autistiques (TSA) intègre à la fois des tableaux cliniques bien caractérisés et des tableaux plus atypiques, du fait de la variabilité des symptômes dans leur sévérité ou de l’âge de leur apparition, et de l’association avec d’autres troubles (retard du développement intellectuel, épilepsie par exemple).
 
-Parmi les TSA figurent le Syndrome d’Asperger? de l’X fragile, le syndrome, de Landau-Kleffner, le syndrome de Rett, le trouble désintégratif de l’enfance et les TED-NOS (troubles envahissants du développement non spécifiés). 
+Parmi les TSA figurent le Syndrome d’Asperger? de l’X fragile, le syndrome de Landau-Kleffner, le syndrome de Rett, le trouble désintégratif de l’enfance et les TED-NOS (troubles envahissants du développement non spécifiés). 
 
 # Quelle prise en charge?
 
