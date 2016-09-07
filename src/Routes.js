@@ -63,7 +63,7 @@ export default (
 	<Route path="consultations" component={Consultations} />
 	<Route path="cabinet" component={Cabinet} />
   	<Route component={Page}>
-		<Route path="contact" component={Contact} />
+		<Route path="salvetat" component={Contact} />
 		<Route path="quisuisje" component={QuiSuisJe} />
 		<Route path="psychologue" component={Wrapper(Psychologue, metaPsychologue)} />
 		<Route path="diplomes" component={Wrapper(Diplomes, metaDiplomes)} />

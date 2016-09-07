@@ -29,7 +29,7 @@ const data = {
     '/bilan/',
     '/articles/',
     '/cabinet/',
-    '/contact/',
+    '/salvetat/',
     '/referencement/',
     '/articles/illusion-incompetence/',
     '/articles/jeux-jouets-bebe/',
