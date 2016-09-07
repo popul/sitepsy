@@ -15,7 +15,7 @@ La survenue d'un événement douloureux,  d'importants changements dans le quoti
 ## Quand faut-il consulter ?
 
 Les difficultés fréquemment rencontrées chez l'enfant sont : 
-- L'énurésie ou l'encoprésie persistants après le cycle maternelle
+- L'énurésie ou l'encoprésie persistant après le cycle maternelle
 - La gestion des temps de séparation
 - Des difficultés avec l'alimentation
 - Des difficultés d'endormissement ou pendant le sommeil
