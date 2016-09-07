@@ -1,6 +1,6 @@
 ---
 title: Autisme, Asperger, Rett
-description: Psychologue traitant les troubles de l'autisme : Asperger, Syndrome de Rett, de Landau-Kleffner et les TED-NOS.
+description: Psychologue traitant les troubles de l'autisme, Asperger, Syndrome de Rett, de Landau-Kleffner et les TED-NOS.
 ---
 
 # Qu'est-ce que l'autisme?
