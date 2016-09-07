@@ -5,3 +5,5 @@ title: Référencement
 # Liens de retours
 
 - [Annuaire 1two](http://www.1two.org)
+- <a href="http://www.annuaire-web-france.com/vote-annuaire-web-france.php?id_site_vote=86143" target="_blank"><img src="http://www.annuaire-web-france.com/images/logo-annuaire-web-france.gif" width="120" height="35" border="0" alt="Annuaire Web France"></a>
+- <noscript><a href="http://www.annuaire-web-france.com/annuaire-sante-medecine.php">Annuaire Santé / Médecine</a> <a href="http://www.annuaire-web-france.com">Annuaire Web</a></noscript>
