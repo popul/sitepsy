@@ -1,5 +1,5 @@
 ---
-title: Enfant
+title: Psychologue pour enfant
 description: Psychologue pour enfant, Enurésie, difficultés d'alimentation, de sommeil, de concentation, hyperactivité. Difficultés d'intégration sociales. TSA, TED
 ---
 
