@@ -2,6 +2,8 @@ import React from 'react';
 import Helmet from "react-helmet";
 import FontIcon from 'react-toolbox/lib/font_icon';
 
+import GMap from '../Map';
+
 import s from './styles.css';
 
 const Contact = props => (
@@ -50,13 +52,17 @@ const Contact = props => (
 				</div>
 			</div>
 		</div>
+		{props.showMap && <section style={{height:'500px', padding: '0px'}}>
+			<GMap />				
+		</section>}
 	</div>
 );
 
 Contact.defaultProps = { 
 	redefineTitle: true,
 	title: 'h1', 
-	subTitles: 'h2' 
+	subTitles: 'h2',
+	showMap: true
 };
 
 export default Contact;

@@ -7,6 +7,8 @@ import Helmet from 'react-helmet';
 import ArticleCards from '../Pages/Articles/cards';
 import Contact from '../Contact';
 
+import GMap from '../Map';
+
 import s from './styles.css';
 
 import { getMetaTags } from '../../util/seo';
@@ -116,8 +118,13 @@ export default class Welcome extends React.Component {
 						<Contact 
 							redefineTitle={false}
 							title='h2'
-							subTitles='h3'/>
+							subTitles='h3'
+							showMap={false}/>
 					</div>
+				</section>
+
+				<section style={{height:'500px', padding: '0px'}}>
+					<GMap />				
 				</section>
 
 				<section>

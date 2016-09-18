@@ -44,6 +44,7 @@ export default (locals, callback) => {
 					  "url": "https://www.abarthelemy-psychologue-toulouse.fr/"
 					}
 					</script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSVu1BbhKtDNSkNwZnHFULLJsW0hr6WQU"></script> 
 				</head>
 				<body>
 					<div id="app">${body}</div> 
