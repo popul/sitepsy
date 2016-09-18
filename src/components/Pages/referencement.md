@@ -10,3 +10,5 @@ title: Référencement
 - <a href='http://www.noogle.fr/'>Sur Noogle.fr</a>
 - <a href="http://guide.arfooo.com/" title="Guide web Arfooo" target="_blank"><img src="http://guide.arfooo.com/images/annuaire-gratuit-8.png" alt="Arfooo.com" border="0" /></a>
 - <a href="http://fr.webmaster-rank.info/">http://fr.webmaster-rank.info/</a>
+- <a href="http://www.psynergie.com" target="_blank"><font color="#0000FF" face="Verdana" size="2">PSYnergie, Annuaire de Psychologie</font></a>
+- Annuairesante : annuaire de la santé et <a href="http://www.annuairesante.com/psychologue/la-salvetat-saint-gilles-31880" rel="notrack" target="_blank" title="Psychologues et thérapeutes La Salvetat Saint Gilles">Psychologues et thérapeutes à La Salvetat Saint Gilles</a>
