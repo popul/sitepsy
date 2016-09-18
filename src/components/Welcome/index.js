@@ -60,8 +60,8 @@ export default class Welcome extends React.Component {
 
 	render() {
 		const 
-			title = "Psychologue clinicienne près de Toulouse, La Salvetat",
-			description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Audrey Barthelemy, je suis psychologue, proche de Toulouse (Salvetat).";
+			title = "Psychologue pour enfant, ado, parent. Toulouse, La Salvetat",
+			description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportement, dépressions, TED. Audrey Barthelemy, psychologue pour enfant, proche de Toulouse";
 
 		return (
 			<div className={s.content}>
@@ -77,17 +77,13 @@ export default class Welcome extends React.Component {
 								<span style={{fontWeight: 'bold'}}>Psychologue</span> 
 								{' '}
 								<span className="hidden-sm-down m-l-1"></span>
-								Psychothérapeute
-								<br />
-								<span style={{fontSize: '0.8em'}}>
-									proche de Toulouse								
-								</span>
+								proche de Toulouse
 							</h1>
 						</div>
 						<ul className={s.targets}>
-							<li><h2><Link to="/enfant/">Enfants</Link> & <Link to="adolescent">Adolescents</Link></h2></li>
+							<li><h2><Link to="/psychologue-pour-enfant/">Psychologue pour enfant</Link> & <Link to="/psychologue-pour-adolescent/">adolescent</Link></h2></li>
 							<li><h2><Link to="/femme-enceinte/">Femmes enceintes</Link></h2></li>
-							<li><h2><Link to="/parent/">Parents</Link></h2></li>
+							<li><h2><Link to="/psychologue-pour-parent/">Parents</Link></h2></li>
 							<li><h2><Link to="/autisme/">Autisme</Link></h2></li>
 							<li><h2><Link to="/bilan/">Bilans</Link></h2></li>
 						</ul>
@@ -101,14 +97,14 @@ export default class Welcome extends React.Component {
 
 				<section>
 					<div className={s.container}>
-						<h2>Audrey Barthélémy, Psychologue clinicienne à proximité de Toulouse</h2>
-						<p>Bienvenue sur le site de mon cabinet de psychologue à La Salvetat Saint Gilles.</p>
-						<p>Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED. Je suis <Link to="/quisuisje/">psychologue</Link>, je peux vous aider. Mon cabinet est proche de Toulouse, à la Salvetat Saint Gilles.</p>
-						<p><Link to='/quisuisje/'>Psychologue clinicienne</Link>, je vous accueille tous les jours. Toutes les <Link to="/consultations/">consultations</Link> sont sur <Link to="/salvetat/">rendez-vous</Link>.</p>
-						<p>J'interviens à différents moments de la vie, au tout début, pendant la <Link to="/femme-enceinte">grossesse</Link> ou pour accompagner le désir d'enfants, <Link to="/enfant/">pendant l'enfance</Link>, <Link to="/adolescent/">l'adolescence</Link> et auprès des <Link to="/parent/">parents</Link> pour soutenir l'établissement de relations familiales positives.</p>	
+						<h2>Audrey Barthélémy, Psychologue pour enfant, adolescent et parent près de Toulouse</h2>
+						<p>Bienvenue sur le site de mon cabinet de psychologie à La Salvetat Saint Gilles.</p>
+						<p>En tant que <Link to="/quisuisje/">psychologue</Link> pour enfant, adolescent et parent, je traite les troubles suivants : Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED.</p>
+						<p>Mon cabinet de psychologie, situé près de Toulouse, est ouvert du lundi au samedi. Toutes les <Link to="/consultations/">consultations</Link> sont sur <Link to="/salvetat/">rendez-vous</Link>.</p>
+						<p>J'interviens à différents moments de la vie, au tout début, pendant la <Link to="/femme-enceinte">grossesse</Link> ou pour accompagner le désir d'enfants, <Link to="/psychologue-pour-enfant/">pendant l'enfance</Link>, <Link to="/psychologue-pour-adolescent/">l'adolescence</Link> et auprès des <Link to="/psychologue-pour-parent/">parents</Link> pour soutenir l'établissement de relations familiales positives.</p>	
 						<p><Link to="/psychologue">Mon approche</Link> clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
 						<p>Je propose un premier rendez-vous d'environ 1 heure, dans mon cabinet, à proximité de Toulouse, afin de faire connaissance et de comprendre  votre problématique.</p>
-						<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 mn), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 min), des séances <Link to="/enfant/">enfants</Link>-<Link to="/parent/">parents</Link> ou la réalisation d'un <Link to="/bilan/">bilan</Link> sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
+						<p>Nous pouvons alors envisager ensemble le suivi le plus approprié : des entretiens de soutien (45 mn), des entretiens psychothérapeutiques (45mn), des séances psycho-éducatives (45 min), des séances <Link to="/psychologue-pour-enfant/">enfants</Link>-<Link to="/psychologue-pour-parent/">parents</Link> ou la réalisation d'un <Link to="/bilan/">bilan</Link> sur plusieurs séances impliquant la passation d'épreuves d'efficience intellectuelle et/ou de tests de personnalité.</p>
 					</div>
 				</section>
 				

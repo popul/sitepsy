@@ -28,12 +28,12 @@ export default props => {
 			<div className={s.container}>
 				<Card
 					title="Enfants"
-					link="/enfant/"
+					link="/psychologue-pour-enfant/"
 					cardLink={true}
 					image="/assets/images/enfant.jpg" />
 				<Card
 					title="Adolescents"
-					link="/adolescent/"
+					link="/psychologue-pour-adolescent/"
 					cardLink={true}
 					image="/assets/images/adolescent.jpg" />
 				<Card
@@ -43,7 +43,7 @@ export default props => {
 					image="/assets/images/femme-enceinte.jpg" />
 				<Card
 					title="Parents"
-					link="/parent/"
+					link="/psychologue-pour-parent/"
 					cardLink={true}
 					image="/assets/images/parent.jpg" />
 				<Card

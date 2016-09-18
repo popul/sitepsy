@@ -71,10 +71,10 @@ export default (
 		<Route path="experience-enseignement" component={Wrapper(ExpEnseignement, metaExpEnseignement)} />
 		<Route path="experience-recherche" component={Wrapper(ExpRecherche, metaExpRecherche)} />
 		<Route path="partenaires" component={Wrapper(Partenaires, metaPartenaires)} />		
-		<Route path="enfant" component={Wrapper(Enfant, metaEnfant)} />
-		<Route path="adolescent" component={Wrapper(Adolescent, metaAdolescent)} />
+		<Route path="psychologue-pour-enfant" component={Wrapper(Enfant, metaEnfant)} />
+		<Route path="psychologue-pour-adolescent" component={Wrapper(Adolescent, metaAdolescent)} />
 		<Route path="femme-enceinte" component={Wrapper(FemmeEnceinte, metaFemmeEnceinte)} />
-		<Route path="parent" component={Wrapper(Parent, metaParent)} />
+		<Route path="psychologue-pour-parent" component={Wrapper(Parent, metaParent)} />
 		<Route path="autisme" component={Wrapper(Autisme, metaAutisme)} />
 		<Route path="bilan" component={Wrapper(Bilan, metaBilan)} />
 		<Route path="referencement" component={Wrapper(Referencement, metaReferencement)} />

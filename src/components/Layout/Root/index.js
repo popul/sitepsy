@@ -33,8 +33,8 @@ export default class RootLayout extends React.Component {
 		this.state = {
 			drawerActive: false
 		};
-		this.title = "Psychologue clinicienne près de Toulouse, La Salvetat",
-		this.description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED ... Un psychologue proche de Toulouse peut vous aider. Cabinet à la Salvetat";
+		this.title = "Psychologue pour enfant, ado, parent. Toulouse, La Salvetat";
+		this.description = "Difficultés d'apprentissage, d'intégration sociale, troubles du comportement, dépressions, TED. Audrey Barthelemy, psychologue pour enfant, proche de Toulouse";
 		this.rootUrl = "https://www.abarthelemy-psychologue-toulouse.com"
 	}
 

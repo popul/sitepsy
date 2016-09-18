@@ -1,5 +1,5 @@
 ---
-title: Parent
+title: Psychologue pour parent
 ---
 
-# Parent
+# Psychologue pour parent
