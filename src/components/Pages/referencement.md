@@ -9,3 +9,4 @@ title: Référencement
 - <a href="http://www.annuaire-web-france.com/annuaire-sante-medecine.php">Annuaire Santé / Médecine</a> <a href="http://www.annuaire-web-france.com">Annuaire Web</a>
 - <a href='http://www.noogle.fr/'>Sur Noogle.fr</a>
 - <a href="http://guide.arfooo.com/" title="Guide web Arfooo" target="_blank"><img src="http://guide.arfooo.com/images/annuaire-gratuit-8.png" alt="Arfooo.com" border="0" /></a>
+- <a href="http://fr.webmaster-rank.info/">http://fr.webmaster-rank.info/</a>
