@@ -12,3 +12,4 @@ title: Référencement
 - <a href="http://fr.webmaster-rank.info/">http://fr.webmaster-rank.info/</a>
 - <a href="http://www.psynergie.com" target="_blank"><font color="#0000FF" face="Verdana" size="2">PSYnergie, Annuaire de Psychologie</font></a>
 - Annuairesante : annuaire de la santé et <a href="http://www.annuairesante.com/psychologue/la-salvetat-saint-gilles-31880" rel="notrack" target="_blank" title="Psychologues et thérapeutes La Salvetat Saint Gilles">Psychologues et thérapeutes à La Salvetat Saint Gilles</a>
+- <a href="http://www.hannuaire.fr/" title="Annuaire web de qualité">Hannuaire</a>
