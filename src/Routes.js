@@ -54,7 +54,7 @@ const scrollTop = () => {
 		setTimeout(() => {
 			const panel = document.querySelector('[data-react-toolbox=panel]');
 			panel.scrollTop = 0;			
-		}, 200);
+		}, 300);
 	}
 }
 
