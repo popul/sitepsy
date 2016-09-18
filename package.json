@@ -48,6 +48,7 @@
     "react-helmet": "^3.1.0",
     "react-image-gallery": "^0.6.10",
     "react-router": "^2.5.2",
+    "react-router-transition": "0.0.6",
     "react-toolbox": "^1.0.3"
   }
 }
