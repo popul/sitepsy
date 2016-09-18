@@ -51,10 +51,8 @@ const Wrapper = (Content, meta) => props => {
 
 const scrollTop = () => {
 	if (typeof document !== 'undefined') {
-		setTimeout(() => {
-			const panel = document.querySelector('[data-react-toolbox=panel]');
-			panel.scrollTop = 0;			
-		}, 300);
+		const panel = document.querySelector('[data-react-toolbox=panel]');
+		panel.scrollTop = 0;			
 	}
 }
 

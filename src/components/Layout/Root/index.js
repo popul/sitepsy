@@ -8,7 +8,6 @@ import Navigation from 'react-toolbox/lib/navigation';
 import FontIcon from 'react-toolbox/lib/font_icon';
 import Footer from '../Footer';
 import { getMetaTags } from '../../../util/seo';
-import { RouteTransition, presets } from 'react-router-transition';
 
 import '../../../../assets/images/icons/favicon.png';
 import '../../../../assets/images/icons/Logo-128.png';
@@ -87,11 +86,7 @@ export default class RootLayout extends React.Component {
 							{"name": "msapplication-TileColor", content: "#FFFFFF"}
 					 	]} />
 					<Menu toggleDrawerActive={this.toggleDrawerActive.bind(this)} path={this.props.location.pathname} />
-					<RouteTransition
-						pathname={this.props.location.pathname}
-						{...presets.fade}>
-						{this.props.children}
-					</RouteTransition>
+					{this.props.children}
 					<Footer />
 	    		</Panel>
 	    	</Layout>
