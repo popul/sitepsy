@@ -73,20 +73,24 @@ export default class Welcome extends React.Component {
 				<header ref="header">
 					<div className={s.middleSection}>
 						<div>
-							<h1>
-								<span style={{fontWeight: 'bold'}}>Psychologue</span> 
-								{' '}
-								<span className="hidden-sm-down m-l-1"></span>
-								proche de Toulouse
-							</h1>
+							<div style={{fontSize: '2.2em'}}>
+								<div style={{paddingTop: '2em'}}>
+									<span style={{fontWeight: 'bold'}}>Psychologue</span> 
+									{' '}
+									<span className="hidden-sm-down m-l-1"></span>
+									près de Toulouse
+								</div>
+							</div>
 						</div>
-						<ul className={s.targets}>
-							<li><h2><Link to="/psychologue-pour-enfant/">Psychologue pour enfant</Link> & <Link to="/psychologue-pour-adolescent/">adolescent</Link></h2></li>
-							<li><h2><Link to="/femme-enceinte/">Femmes enceintes</Link></h2></li>
-							<li><h2><Link to="/psychologue-pour-parent/">Parents</Link></h2></li>
-							<li><h2><Link to="/autisme/">Autisme</Link></h2></li>
-							<li><h2><Link to="/bilan/">Bilans</Link></h2></li>
-						</ul>
+						<h1>
+							<ul className={s.targets}>
+								<li><Link to="/psychologue-pour-enfant/">Psychologue pour enfant</Link> & <Link to="/psychologue-pour-adolescent/">adolescent</Link></li>
+								<li><Link to="/femme-enceinte/">Femmes enceintes</Link></li>
+								<li><Link to="/psychologue-pour-parent/">Parents</Link></li>
+								<li><Link to="/autisme/">Autisme</Link></li>
+								<li><Link to="/bilan/">Bilans</Link></li>
+							</ul>							
+						</h1>
 						<div className={s.button}>
 							<Button icon='event'raised onClick={click}>
 								<span className="hidden-sm-down">Prendre&nbsp;</span>rendez-vous
@@ -108,6 +112,9 @@ export default class Welcome extends React.Component {
 					</div>
 				</section>
 				
+				<section style={{height:'500px', padding: '0px'}}>
+					<GMap />				
+				</section>
 
 				<section className={s.alternative}>
 					<div className={s.container}>
@@ -117,10 +124,6 @@ export default class Welcome extends React.Component {
 							subTitles='h3'
 							showMap={false}/>
 					</div>
-				</section>
-
-				<section style={{height:'500px', padding: '0px'}}>
-					<GMap />				
 				</section>
 
 				<section>

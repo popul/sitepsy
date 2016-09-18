@@ -67,27 +67,25 @@
 	}
 }
 
-ul.targets {
+h1 ul.targets {
 	list-style-type: none;
 	padding: 0;
-	color: color($primary lightness(90%));
+	color: color($primary lightness(100%));
 	background-color: $secondary;
-	padding: 1em 1em;
+	padding: 1rem 1rem;
 	display: inline-block;
-	font-weight: 400;
+	font-weight: 300;
 	border-radius: 4px;
-	line-height: 1.5em;
+	line-height: 1rem;
 
 	li {
 		display: inline-block;
-		h2 {
-			font-size: 1.1rem;
-			margin: 0;
-			a {
-				color: color($primary lightness(100%)) !important;
-				&:hover {
-					text-decoration: underline !important;
-				}
+		font-size: 1.1rem;
+		margin: 0;
+		a {
+			color: color($primary lightness(100%)) !important;
+			&:hover {
+				text-decoration: underline !important;
 			}
 		}
 		&:after {
