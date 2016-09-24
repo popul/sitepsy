@@ -14,7 +14,7 @@ import s from './styles.css';
 import { getMetaTags } from '../../util/seo';
 
 function click() {
-	setTimeout(browserHistory.push.bind(null, '/salvetat'), 300);
+	setTimeout(browserHistory.push.bind(null, '/toulouse'), 300);
 }
 
 function createInitMap() {
@@ -104,7 +104,7 @@ export default class Welcome extends React.Component {
 						<h2>Audrey Barthélémy, Psychologue pour enfant, adolescent et parent près de Toulouse</h2>
 						<p>Bienvenue sur le site de mon cabinet de psychologie à La Salvetat Saint Gilles.</p>
 						<p>En tant que <Link to="/quisuisje/">psychologue</Link> pour enfant, adolescent et parent, je traite les troubles suivants : Difficultés d'apprentissage, d'intégration sociale, troubles du comportements, TED.</p>
-						<p>Mon cabinet de psychologie, situé près de Toulouse, est ouvert du lundi au samedi. Toutes les <Link to="/consultations/">consultations</Link> sont sur <Link to="/salvetat/">rendez-vous</Link>.</p>
+						<p>Mon cabinet de psychologie, situé près de Toulouse, est ouvert du lundi au samedi. Toutes les <Link to="/consultations/">consultations</Link> sont sur <Link to="/toulouse/">rendez-vous</Link>.</p>
 						<p>J'interviens à différents moments de la vie, au tout début, pendant la <Link to="/femme-enceinte">grossesse</Link> ou pour accompagner le désir d'enfants, <Link to="/psychologue-pour-enfant/">pendant l'enfance</Link>, <Link to="/psychologue-pour-adolescent/">l'adolescence</Link> et auprès des <Link to="/psychologue-pour-parent/">parents</Link> pour soutenir l'établissement de relations familiales positives.</p>	
 						<p><Link to="/psychologue">Mon approche</Link> clinique est intégrative, basée sur la psychologie du développement, la psychologie de l'éducation, la psychologie humaniste et la psychanalyse.</p>
 						<p>Je propose un premier rendez-vous d'environ 1 heure, dans mon cabinet, à proximité de Toulouse, afin de faire connaissance et de comprendre  votre problématique.</p>

@@ -59,7 +59,7 @@ export default class RootLayout extends React.Component {
 						<IconLink icon="mode_edit" to="/consultations/" text="Consultations" />
 						<IconLink icon="business_center" to="/cabinet/" text="Cabinet" />
 						<IconLink icon="library_books" to="/articles/" text="Articles" />
-						<IconLink icon="contact_phone" to="/salvetat/" text="Contact" />
+						<IconLink icon="contact_phone" to="/toulouse/" text="Contact" />
 					</Navigation>
 	    		</NavDrawer>
 	    		<Panel scrollY={true} theme={theme}>
