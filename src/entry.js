@@ -41,7 +41,18 @@ export default (locals, callback) => {
 					  "name": "Audrey Barthélémy",
 					  "jobTitle": "Psychologue",
 					  "telephone": "0633065738",
-					  "url": "https://www.abarthelemy-psychologue-toulouse.fr/"
+					  "url": "https://www.abarthelemy-psychologue-toulouse.fr/",
+					  "homeLocation": {
+					  	"@type": "LocalBusiness",
+						"address": {
+							"@type": "PostalAddress",
+							"addressLocality": "La Salvetat Saint Gilles",
+							"streetAddress": "10 rue peyresourde"
+						},
+						"description": "Cabinet de psychologie pour enfant, adolescent et parent à la Salvetat Saint Gilles",
+						"name": "Audrey Barthélémy Psychologue",
+						"telephone": "06 33 06 57 38"
+					  }
 					}
 					</script>
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSVu1BbhKtDNSkNwZnHFULLJsW0hr6WQU"></script> 
