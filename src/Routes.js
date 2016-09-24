@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import Root from './components/Layout/Root';
 import Welcome from './components/Welcome';
 import Page from './components/Layout/Page';
-import Contact from './components/Contact';
+import Contact, { ContactNearOf } from './components/Contact';
 import Cabinet from './components/Cabinet';
 
 import QuiSuisJe from './components/Pages/QuiSuisJe';
@@ -63,6 +63,18 @@ export default (
 	<Route path="consultations" component={Consultations} />
 	<Route path="cabinet" component={Cabinet} />
   	<Route component={Page}>
+		<Route path="toulouse" component={ContactNearOf('Toulouse')} />  	
+		<Route path="tournefeuille" component={ContactNearOf('Tournefeuille')} />  	
+		<Route path="colomiers" component={ContactNearOf('Colomiers')} />  	
+		<Route path="plaisance-du-touch" component={ContactNearOf('Plaisance du Touch')} />  	
+		<Route path="pibrac" component={ContactNearOf('Pibrac')} />  	
+		<Route path="fonsorbes" component={ContactNearOf('Fonsorbes', 10)} />  	
+		<Route path="cugnaux" component={ContactNearOf('Cugnaux', 10)} />  	
+		<Route path="frouzins" component={ContactNearOf('Frouzins', 10)} />  	
+		<Route path="saint-lys" component={ContactNearOf('Saint-Lys', 10)} />  	
+		<Route path="leguevin" component={ContactNearOf('Légevin', 10)} />  	
+		<Route path="pujaudran" component={ContactNearOf('Pujaudran', 10)} />  	
+		<Route path="l-isle-jourdain" component={ContactNearOf(`L'Isle-Jourdain`, 9)} />  	
 		<Route path="salvetat" component={Contact} />
 		<Route path="quisuisje" component={QuiSuisJe} />
 		<Route path="psychologue" component={Wrapper(Psychologue, metaPsychologue)} />

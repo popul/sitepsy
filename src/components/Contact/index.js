@@ -6,17 +6,24 @@ import GMap from '../Map';
 
 import s from './styles.css';
 
+function nearOf(city) {
+	if (city !== Contact.defaultProps.city) {
+		return `près de ${city}`;
+	}
+	return '';
+}
+
 const Contact = props => (
 	<div className={s.content}>
 		{props.redefineTitle && <Helmet 
-			title="Contact La Salvetat Saint Gilles"
+			title={`Contact ${props.city}`}
 			meta={[
 				{"name": "description", "content": "Contactez-moi au 06-33-06-57-38. Adresse du cabinet: 4 avenue des Capitouls 31880 La Salvetat Saint Gilles. Email: audrey.barthelemy@outlook.com"}
 			]} />}
 		{React.createElement(props.title, {}, 'Contactez-moi')}
 		<div className='Grid Grid--gutters Grid--full large-Grid--fit'>
 			<div className="Grid-cell">
-				<h4>Psychologue pour enfant, adolescent et parent près de Toulouse,<br /> à la Salvetat Saint Gilles</h4>
+				<h4>Psychologue pour enfant, adolescent et parent {`${nearOf(props.city)}`},<br /> à la Salvetat Saint Gilles</h4>
 				<div className={s.section}>
 					<FontIcon value='person_pin' />
 					<address>
@@ -53,7 +60,7 @@ const Contact = props => (
 			</div>
 		</div>
 		{props.showMap && <section style={{height:'500px', padding: '0px'}}>
-			<GMap />				
+			<GMap zoomLevel={props.mapZoomLevel} />				
 		</section>}
 	</div>
 );
@@ -62,7 +69,13 @@ Contact.defaultProps = {
 	redefineTitle: true,
 	title: 'h1', 
 	subTitles: 'h2',
-	showMap: true
+	showMap: true,
+	mapZoomLevel: 11,
+	city: 'La Salvetat Saint Gilles'
 };
+
+export const ContactNearOf = (city, mapZoomLevel=11) => props => {
+	return <Contact city={city} mapZoomLevel={mapZoomLevel} />
+}
 
 export default Contact;

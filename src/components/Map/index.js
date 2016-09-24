@@ -5,16 +5,15 @@ import { default as canUseDOM } from "can-use-dom";
 import { GoogleMapLoader, GoogleMap, Marker } from "react-google-maps";
 import { triggerEvent } from "react-google-maps/lib/utils";
 
-export default class extends Component {
-
+class Map extends Component {
   state = {
     markers: [{
       position: {
         lat: 43.578425,
         lng: 1.272752,
       },
-      key: `Taiwan`,
-      defaultAnimation: 2,
+      key: `Cabinet`,
+      defaultAnimation: 2
     }],
   }
 
@@ -35,16 +34,15 @@ export default class extends Component {
   }
 
   render() {
-    let zoomLevel = 11;
+    let zoomLevel = this.props.zoomLevel;
     if (canUseDOM) {
-      zoomLevel = window.matchMedia('(min-width: 768px)').matches ? 12 : zoomLevel;
+      zoomLevel = window.matchMedia('(min-width: 768px)').matches ? zoomLevel + 1 : zoomLevel;
     }
 
     return (
       <GoogleMapLoader
         containerElement={
           <div
-            {...this.props}
             style={{
               height: `100%`,
             }}
@@ -72,3 +70,9 @@ export default class extends Component {
     );
   }
 }
+
+Map.defaultProps = { 
+  zoomLevel: 11
+};
+
+export default Map;
