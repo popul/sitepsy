@@ -1,0 +1,29 @@
+{
+  "name": "Psy A.Barthelemy",
+  "short_name": "Psy A.Barthelemy",
+  "icons": [{
+    "src": "/assets/images/Logo-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/assets/images/Logo-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/assets/images/Logo-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/assets/images/Logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/assets/images/Logo-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#42c3cf"
+}
