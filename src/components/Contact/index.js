@@ -32,8 +32,8 @@ const Contact = props => (
 					</address>			
 				</div>
 				<div className={s.section}>
-					<FontIcon value='phone' />				
-					<div>06 33 06 57 38</div>			
+					<FontIcon value='calendar' />				
+					<div><a href="https://www.maiia.com/psychologue/31880-la-salvetat-saint-gilles/barthelemy-audrey?centerId=62d68b0d19b7c66f93f6178c">Prendre rendez-vous sur Maiia</a></div>			
 				</div>
 				<div className={s.section}>
 					<FontIcon value='email' />	
@@ -47,14 +47,14 @@ const Contact = props => (
 				<div className={`${s.section} m-t-2`}>
 					{React.createElement(props.subTitles, {}, 'Horaires d\'ouverture')}
 					<FontIcon value='access_time' />
-					<div>De 9h à 20h (du Lundi au Samedi)</div>			
+					<div>De 9h à 17h (du Lundi au Samedi)</div>			
 				</div>
 				<div className={s.section}>
 					{React.createElement(props.subTitles, {}, 'Tarif des consultations')}
 					<FontIcon value='info' />
 					<div>
 						50€ la séance <br/>
-						Une séance dure 45 minutes
+						Une séance dure 40 minutes
 					</div>
 				</div>
 			</div>
